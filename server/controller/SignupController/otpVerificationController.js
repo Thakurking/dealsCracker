@@ -2,6 +2,7 @@
 const OTP = require("../../models/components/otp/OTP.model");
 const User = require("../../models/components/user/user.Model");
 
+//#region OTP Verification Controller
 exports.otpVerify = async (req, res) => {
   const { otp, userId } = req.body;
   if (!otp || !userId) {
@@ -36,3 +37,4 @@ exports.otpVerify = async (req, res) => {
     });
   }
 };
+//#endregion
