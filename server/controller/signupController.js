@@ -44,7 +44,7 @@ exports.signup = async (req, res) => {
     html: `<h1>Account Verification</h1><br><hr>
             <br><a>Your OTP is: ${otpNum}</a>`,
   };
-  const mail = transporter.transporter.sendMail(mailOption);
+  const mail = await transporter.transporter.sendMail(mailOption);
   if (mail) {
     const user = new User({
       email: email,
@@ -62,7 +62,7 @@ exports.signup = async (req, res) => {
     const saveUser = user.save();
     if (saveUser && saveOtp) {
       return res.json({
-        message: "Please Check Your Main We Have Sent A Mail",
+        message: "Please Check Your Mail We Have Sent n OTP",
         isSuccess: true,
         userId: isEmailExist._id,
       });
