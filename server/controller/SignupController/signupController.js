@@ -1,9 +1,9 @@
 //MODELS
-const User = require("../models/components/user/user.Model");
-const OTP = require("../models/components/otp/OTP.model");
+const User = require("../../models/components/user/user.Model");
+const OTP = require("../../models/components/otp/OTP.model");
 
 //HELPER
-const transporter = require("../helper/nodemailer.Helper");
+const transporter = require("../../helper/nodemailer.Helper");
 
 //#region User Signup Controller
 exports.signup = async (req, res) => {
@@ -62,7 +62,7 @@ exports.signup = async (req, res) => {
     const saveUser = user.save();
     if (saveUser && saveOtp) {
       return res.json({
-        message: "Please Check Your Mail We Have Sent n OTP",
+        message: "Please Check Your Mail We Have Sent an OTP",
         isSuccess: true,
         userId: isEmailExist._id,
       });
