@@ -481,8 +481,78 @@ export default function Signup() {
                                 overflow: "visible",
                               }}
                             />
-                            <button type="submit"></button>
+                            <button
+                              type="submit"
+                              style={{
+                                padding: "10px 15px",
+                                minWidth: "90px",
+                                fontSize: "14px",
+                                fontFamily: "inherit",
+                                transition:
+                                  "all .1s cubic-bezier(.65,.045,.405,1)",
+                                background: "#333",
+                                fontWeight: "700",
+                                cursor: "pointer",
+                                textAlign: "center",
+                                whiteSpace: "nowrap",
+                                overflowX: "visible",
+                                overflowY: "visible",
+                                lineHeight: "1",
+                                border: "1px solid #333",
+                                WebkitAppearance: "button",
+                                width: "100%",
+                                textTransform: "uppercase",
+                                borderRadius: "2px",
+                                color: "#fff",
+                                margin: "0",
+                                boxSizing: "border-box",
+                              }}
+                            >
+                              SEND ACTIVATION LINK
+                            </button>
                           </form>
+                          <p
+                            style={{
+                              paddingBottom: "15px",
+                              margin: "0 0 10px",
+                              boxSizing: "border-box",
+                              display: "block",
+                              marginBlockStart: "1em",
+                              marginBlockEnd: "1em",
+                              marginInlineStart: "0px",
+                              marginInlineEnd: "0px",
+                              textAlign: "center",
+                            }}
+                          >
+                            By Signing Up, you agree to Tracxn's
+                            <a
+                              style={{
+                                color: "#337ab7",
+                                textDecoration: "none",
+                                boxSizing: "border-box",
+                                cursor: "pointer",
+                                textAlign: "center",
+                              }}
+                            >
+                              Terms of Use
+                            </a>
+                            <span> & </span>
+                            <a
+                              style={{
+                                color: "#337ab7",
+                                textDecoration: "none",
+                                boxSizing: "border-box",
+                                cursor: "pointer",
+                                textAlign: "center",
+                              }}
+                            >
+                              Privacy Policy
+                            </a>
+                          </p>
+                          <p>
+                            Already have an account?{" "}
+                            <a href="/login">Login now</a>
+                          </p>
                         </div>
                       </div>
                     </div>
