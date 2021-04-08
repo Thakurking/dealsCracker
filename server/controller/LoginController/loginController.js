@@ -42,7 +42,7 @@ exports.login = async (req, res) => {
   const payload = {};
   payload.user = isUser._id;
   if (isUser.status === "client") payload.client = true;
-  const token = jwt.sign(payload, process.env.secret, { expiresIn: "8h" });
+  const token = jwt.sign(payload, process.env.jwtSecret, { expiresIn: "8h" });
   if (!token) {
     return res.json({
       message: "Could Not Verify Your Password",
