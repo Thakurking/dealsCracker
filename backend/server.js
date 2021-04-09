@@ -11,6 +11,7 @@ const morgan = require("morgan");
 const helmet = require("helmet");
 const httpError = require("http-errors");
 const cors = require("cors");
+const cluster = require("cluster");
 /**************************/
 
 /**********CORS SETUP**********/
@@ -20,7 +21,7 @@ const corsOption = {
     if (whiteList.indexOf(origin) !== -1) {
       callback(null, true);
     } else {
-      callback(new Error("Not Allowed From Other Origin"));
+      callback(new Error("Not Allowed From Other Origins"));
     }
   },
 };
@@ -49,6 +50,7 @@ app.use((req, res, next) => {
 /***********************************/
 
 /**********MongoDB Connection**********/
+
 const connectDB = async () => {
   try {
     const conn = await mongoose.connect("mongodb://localhost/dealsCrack", {
@@ -64,17 +66,52 @@ const connectDB = async () => {
   }
 };
 connectDB();
-/************************************/
+
+/*************************************/
 
 /**********SERVER PORT Connection**********/
 const PORT = process.env.PORT || 5050;
 
-const server = app.listen(PORT, () => {
-  console.log(`server crashed on ${process.env.NODE_ENV} in ${PORT}`);
-});
+if (cluster.isMaster) {
+  var numWorkers = require("os").cpus().length;
 
-process.on("unhandledRejection", (err, promise) => {
-  console.log(`Logged Error: ${err}`);
-  server.close(() => process.exit(1));
-});
+  console.log("Master cluster setting up " + numWorkers + " workers...");
+
+  for (var i = 0; i < numWorkers; i++) {
+    cluster.fork();
+  }
+
+  cluster.on("online", function (worker) {
+    console.log("Worker " + worker.process.pid + " is online");
+  });
+
+  cluster.on("exit", function (worker, code, signal) {
+    console.log(
+      "Worker " +
+        worker.process.pid +
+        " died with code: " +
+        code +
+        ", and signal: " +
+        signal
+    );
+    console.log("Starting a new worker");
+    cluster.fork();
+  });
+} else {
+  app.all("/*", function (req, res) {
+    res.send("process " + process.pid + " says hello!").end();
+  });
+  const server = app.listen(PORT, () => {
+    console.log(
+      `server crashed on ${process.env.NODE_ENV} in ${PORT} process on ` +
+        process.pid +
+        " listening"
+    );
+  });
+
+  process.on("unhandledRejection", (err, promise) => {
+    console.log(`Logged Error: ${err}`);
+    server.close(() => process.exit(1));
+  });
+}
 /******************************************/
