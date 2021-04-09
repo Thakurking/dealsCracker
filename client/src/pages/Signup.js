@@ -1,9 +1,30 @@
-import React from "react";
+import React, { useState } from "react";
+import axios from "axios";
 
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Row, Button } from "react-bootstrap";
 
 export default function Signup() {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [confirmPassword, setConfirmPassword] = useState("");
+
+  const postSignupRequest = () => {
+    console.log(email, password, confirmPassword);
+    axios
+      .post("http://localhost:5050/signup", {
+        email,
+        password,
+        confirmPassword,
+      })
+      .then((res) => {
+        console.log(res.data);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  };
+
   return (
     <>
       <Container>
@@ -464,6 +485,8 @@ export default function Signup() {
                               id="email"
                               placeholder="john@company.com"
                               name="email"
+                              value={email}
+                              onChange={(e) => setEmail(e.target.value)}
                               style={{
                                 padding: "9px 7px",
                                 fontSize: "14px",
@@ -481,8 +504,58 @@ export default function Signup() {
                                 overflow: "visible",
                               }}
                             />
-                            <button
-                              type="submit"
+                            <input
+                              type="password"
+                              id="password"
+                              name="password"
+                              value={password}
+                              onChange={(e) => setPassword(e.target.value)}
+                              style={{
+                                padding: "9px 7px",
+                                fontSize: "14px",
+                                display: "inline-block",
+                                lineHeight: "1.2",
+                                color: "#293348",
+                                backgroundColor: "fff",
+                                backgroundImage: "none",
+                                backgroundClip: "padding-box",
+                                border: "1px solid #bdbdbd",
+                                borderRadius: "4px",
+                                width: "100%",
+                                textAlign: "left",
+                                marginBottom: "20px",
+                                overflow: "visible",
+                              }}
+                            />
+                            <input
+                              type="Password"
+                              id="confirmPassword"
+                              name="confirmPassword"
+                              value={confirmPassword}
+                              onChange={(e) =>
+                                setConfirmPassword(e.target.value)
+                              }
+                              style={{
+                                padding: "9px 7px",
+                                fontSize: "14px",
+                                display: "inline-block",
+                                lineHeight: "1.2",
+                                color: "#293348",
+                                backgroundColor: "fff",
+                                backgroundImage: "none",
+                                backgroundClip: "padding-box",
+                                border: "1px solid #bdbdbd",
+                                borderRadius: "4px",
+                                width: "100%",
+                                textAlign: "left",
+                                marginBottom: "20px",
+                                overflow: "visible",
+                              }}
+                            />
+                            <Button
+                              onClick={() => {
+                                postSignupRequest();
+                              }}
                               style={{
                                 padding: "10px 15px",
                                 minWidth: "90px",
@@ -509,7 +582,7 @@ export default function Signup() {
                               }}
                             >
                               SEND ACTIVATION LINK
-                            </button>
+                            </Button>
                           </form>
                           <p
                             style={{
