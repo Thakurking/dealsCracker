@@ -98,14 +98,10 @@ if (cluster.isMaster) {
     cluster.fork();
   });
 } else {
-  // app.all("/*", function (req, res) {
-  //   res.send("process " + process.pid + " says hello!").end();
-  // });
   const server = app.listen(PORT, () => {
     console.log(
-      `server crashed on ${process.env.NODE_ENV} in ${PORT} process on ` +
-        process.pid +
-        " listening"
+      `server crashed on ${process.env.NODE_ENV} in ${PORT} process listening on ` +
+        process.pid
     );
   });
 

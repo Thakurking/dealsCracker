@@ -485,11 +485,115 @@ export default function body() {
                         marginTop: "0",
                         marginBottom: "10px",
                         boxSizing: "border-box",
+                        display: "block",
+                        listStyleType: "disc",
+                        marginBlockStart: "1em",
+                        marginBlockEnd: "1em",
+                        marginInlineStart: "0px",
+                        marginInlineEnd: "0px",
+                        paddingInlineStart: "40px",
                       }}
-                    ></ul>
+                    >
+                      <li
+                        style={{
+                          marginBottom: "10px",
+                          boxSizing: "border-box",
+                          display: "list-item",
+                          textAlign: "-webkit-match-parent",
+                          fontSize: "14px",
+                          color: "#777",
+                          listStyleType: "disc",
+                        }}
+                      >
+                        350+ Technology Sector
+                      </li>
+                      <li
+                        style={{
+                          marginBottom: "10px",
+                          boxSizing: "border-box",
+                          display: "list-item",
+                          textAlign: "-webkit-match-parent",
+                          fontSize: "14px",
+                          color: "#777",
+                          listStyleType: "disc",
+                        }}
+                      >
+                        30+ Countries
+                      </li>
+                      <li
+                        style={{
+                          marginBottom: "10px",
+                          boxSizing: "border-box",
+                          display: "list-item",
+                          textAlign: "-webkit-match-parent",
+                          fontSize: "14px",
+                          color: "#777",
+                          listStyleType: "disc",
+                        }}
+                      >
+                        1000+ Emerging Themes
+                      </li>
+                      <li
+                        style={{
+                          marginBottom: "10px",
+                          boxSizing: "border-box",
+                          display: "list-item",
+                          textAlign: "-webkit-match-parent",
+                          fontSize: "14px",
+                          color: "#777",
+                          listStyleType: "disc",
+                        }}
+                      >
+                        Scout by Team Backgrounds
+                      </li>
+                      <li
+                        style={{
+                          marginBottom: "10px",
+                          boxSizing: "border-box",
+                          display: "list-item",
+                          textAlign: "-webkit-match-parent",
+                          fontSize: "14px",
+                          color: "#777",
+                          listStyleType: "disc",
+                        }}
+                      >
+                        Leaderboard of Companies scored on 25+ signals
+                      </li>
+                      <li
+                        style={{
+                          marginBottom: "10px",
+                          boxSizing: "border-box",
+                          display: "list-item",
+                          textAlign: "-webkit-match-parent",
+                          fontSize: "14px",
+                          color: "#777",
+                          listStyleType: "disc",
+                        }}
+                      >
+                        Analyst Picks & Proprietary Soonicorn Club
+                      </li>
+                      <li
+                        style={{
+                          marginBottom: "10px",
+                          boxSizing: "border-box",
+                          display: "list-item",
+                          textAlign: "-webkit-match-parent",
+                          fontSize: "14px",
+                          color: "#777",
+                          listStyleType: "disc",
+                        }}
+                      >
+                        Instantly Connect with Companies from the Platform
+                      </li>
+                    </ul>
                   </Col>
                   <Col className="justify-content-md-center">how</Col>
                   <Col className="justify-content-md-center">are you</Col>
+                </Row>
+                <Row>
+                  <Col className="justify-content-md-center"></Col>
+                  <Col className="justify-content-md-center"></Col>
+                  <Col className="justify-content-md-center"></Col>
                 </Row>
               </Container>
             </div>
