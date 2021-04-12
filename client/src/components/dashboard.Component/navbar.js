@@ -7,7 +7,18 @@ import { Navbar, Nav, NavDropdown, Button } from "react-bootstrap";
 export default function Dashboard() {
   return (
     <>
-      <Navbar bg="white" sticky="top" expand="lg">
+      <Navbar
+        bg="white"
+        sticky="top"
+        expand="lg"
+        style={{
+          zIndex: "1030",
+          top: "0",
+          width: "100%",
+          boxSizing: "border-box",
+          minHeight: "50px",
+        }}
+      >
         <Navbar.Brand href="#">
           <img
             id="logo_tracxn"
@@ -16,6 +27,7 @@ export default function Dashboard() {
             alt="Tracxn.com"
             width="100"
             height="22"
+            style={{ aspectRatio: "100/2" }}
           />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
