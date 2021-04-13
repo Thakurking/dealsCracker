@@ -2624,6 +2624,7 @@ export default function body() {
         </span>
       </div>
       <div
+        className="sector report"
         style={{
           marginTop: "40px",
           position: "relative",
@@ -3395,6 +3396,7 @@ export default function body() {
         {/* </Container> */}
       </div>
       <div
+      className="complimentry offerings"
         style={{
           marginTop: "40px",
           position: "relative",
@@ -3404,7 +3406,9 @@ export default function body() {
           display: "block",
           fontSize: "14px",
         }}
-      ></div>
+      >
+        <span></span>
+      </div>
     </>
   );
 }
