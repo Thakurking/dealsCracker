@@ -9,14 +9,14 @@ function App() {
   return (
     <>
       <Router>
+      <Route exact path="/">
+          <Dashboard />
+        </Route>
         <Route exact path="/login">
           <Login />
         </Route>
         <Route exact path="/signup">
           <Signup />
-        </Route>
-        <Route exact path="/dashboard">
-          <Dashboard />
         </Route>
       </Router>
     </>
