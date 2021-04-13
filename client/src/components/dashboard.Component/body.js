@@ -2607,8 +2607,804 @@ export default function body() {
             </span>
           </a>
         </div>
-        <span></span>
+        <span
+          style={{
+            fontSize: "14px",
+            cursor: "pointer",
+            textTransform: "uppercase",
+            textAlign: "center",
+            display: "block",
+            color: "#337ab7",
+            marginTop: "20px",
+            textDecoration: "underline",
+            boxSizing: "border-box",
+          }}
+        >
+          View All Sectors
+        </span>
       </div>
+      <div
+        style={{
+          marginTop: "40px",
+          position: "relative",
+          textAlign: "center",
+          color: "#555",
+          boxSizing: "border-box",
+          display: "block",
+          fontSize: "14px",
+          lineHeight: "1.42857143",
+        }}
+      >
+        <span
+          style={{
+            zIndex: "3",
+            fontSize: "28px",
+            margin: "0",
+            maxWidth: "580px",
+            position: "relative",
+            display: "inline-block",
+            background: "#fff",
+            color: "#404040",
+            paddingLeft: "20px",
+            paddingRight: "20px",
+            boxSizing: "border-box",
+            textAlign: "center",
+            lineHeight: "1.42857143",
+          }}
+        >
+          Sector Reports
+        </span>
+      </div>
+      <p
+        style={{
+          lineHeight: "1.42857143",
+          marginBottom: "25px",
+          textAlign: "center",
+          color: "#555",
+          marginTop: "7px",
+          paddingLeft: "10px",
+          paddingLeft: "10px",
+          margin: "0 0 10px",
+          boxSizing: "border-box",
+          display: "block",
+          marginBlockStart: "1em",
+          marginBlockEnd: "1em",
+          marginInlineStart: "0px",
+          marginInlineEnd: "0px",
+        }}
+      >
+        Get latest trends and insights into the sectors of your interest
+      </p>
+      <div
+        style={{
+          overflow: "hidden",
+          marginBottom: "25px",
+          marginTop: "15px",
+          marginLeft: "20%",
+          boxSizing: "border-box",
+          display: "block",
+          color: "#293348",
+          fontSize: "14px",
+          lineHeight: "1.42857143",
+          WebkitTapHighlightColor: "transparent",
+          WebkitTextSizeAdjust: "100%",
+          WebkitFontSmoothing: "antialiased",
+        }}
+      >
+        {/* <Container> */}
+        <a
+          style={{
+            fontSize: "13px",
+            display: "flex",
+            flexDirection: "row",
+            color: "#555",
+            marginBottom: "5px",
+            paddingTop: "10px",
+            paddingBottom: "10px",
+            width: "50%",
+            float: "left",
+            backgroundColor: "transparent",
+            textDecoration: "none",
+            boxSizing: "border-box",
+            cursor: "pointer",
+            lineHeight: "1.42857143",
+          }}
+          href="/"
+        >
+          <span
+            style={{
+              width: "90px",
+              color: "#999",
+              display: "inline-block",
+              paddingLeft: "10px",
+              boxSizing: "border-box",
+              fontSize: "13px",
+              cursor: "pointer",
+              lineHeight: "1.42857143",
+            }}
+          >
+            Apr 2021
+          </span>
+          Language Learning - Feed Report
+        </a>
+        <a
+          style={{
+            fontSize: "13px",
+            display: "flex",
+            flexDirection: "row",
+            color: "#555",
+            marginBottom: "5px",
+            paddingTop: "10px",
+            paddingBottom: "10px",
+            width: "50%",
+            float: "left",
+            backgroundColor: "transparent",
+            textDecoration: "none",
+            boxSizing: "border-box",
+            cursor: "pointer",
+            lineHeight: "1.42857143",
+          }}
+          href="/"
+        >
+          <span
+            style={{
+              width: "90px",
+              color: "#999",
+              display: "inline-block",
+              paddingLeft: "10px",
+              boxSizing: "border-box",
+              fontSize: "13px",
+              cursor: "pointer",
+              lineHeight: "1.42857143",
+            }}
+          >
+            Apr 2021
+          </span>
+          Language Learning - Feed Report
+        </a>
+        <a
+          style={{
+            fontSize: "13px",
+            display: "flex",
+            flexDirection: "row",
+            color: "#555",
+            marginBottom: "5px",
+            paddingTop: "10px",
+            paddingBottom: "10px",
+            width: "50%",
+            float: "left",
+            backgroundColor: "transparent",
+            textDecoration: "none",
+            boxSizing: "border-box",
+            cursor: "pointer",
+            lineHeight: "1.42857143",
+          }}
+          href="/"
+        >
+          <span
+            style={{
+              width: "90px",
+              color: "#999",
+              display: "inline-block",
+              paddingLeft: "10px",
+              boxSizing: "border-box",
+              fontSize: "13px",
+              cursor: "pointer",
+              lineHeight: "1.42857143",
+            }}
+          >
+            Apr 2021
+          </span>
+          Language Learning - Feed Report
+        </a>
+        <a
+          style={{
+            fontSize: "13px",
+            display: "flex",
+            flexDirection: "row",
+            color: "#555",
+            marginBottom: "5px",
+            paddingTop: "10px",
+            paddingBottom: "10px",
+            width: "50%",
+            float: "left",
+            backgroundColor: "transparent",
+            textDecoration: "none",
+            boxSizing: "border-box",
+            cursor: "pointer",
+            lineHeight: "1.42857143",
+          }}
+          href="/"
+        >
+          <span
+            style={{
+              width: "90px",
+              color: "#999",
+              display: "inline-block",
+              paddingLeft: "10px",
+              boxSizing: "border-box",
+              fontSize: "13px",
+              cursor: "pointer",
+              lineHeight: "1.42857143",
+            }}
+          >
+            Apr 2021
+          </span>
+          Language Learning - Feed Report
+        </a>
+        <a
+          style={{
+            fontSize: "13px",
+            display: "flex",
+            flexDirection: "row",
+            color: "#555",
+            marginBottom: "5px",
+            paddingTop: "10px",
+            paddingBottom: "10px",
+            width: "50%",
+            float: "left",
+            backgroundColor: "transparent",
+            textDecoration: "none",
+            boxSizing: "border-box",
+            cursor: "pointer",
+            lineHeight: "1.42857143",
+          }}
+          href="/"
+        >
+          <span
+            style={{
+              width: "90px",
+              color: "#999",
+              display: "inline-block",
+              paddingLeft: "10px",
+              boxSizing: "border-box",
+              fontSize: "13px",
+              cursor: "pointer",
+              lineHeight: "1.42857143",
+            }}
+          >
+            Apr 2021
+          </span>
+          Language Learning - Feed Report
+        </a>
+        <a
+          style={{
+            fontSize: "13px",
+            display: "flex",
+            flexDirection: "row",
+            color: "#555",
+            marginBottom: "5px",
+            paddingTop: "10px",
+            paddingBottom: "10px",
+            width: "50%",
+            float: "left",
+            backgroundColor: "transparent",
+            textDecoration: "none",
+            boxSizing: "border-box",
+            cursor: "pointer",
+            lineHeight: "1.42857143",
+          }}
+          href="/"
+        >
+          <span
+            style={{
+              width: "90px",
+              color: "#999",
+              display: "inline-block",
+              paddingLeft: "10px",
+              boxSizing: "border-box",
+              fontSize: "13px",
+              cursor: "pointer",
+              lineHeight: "1.42857143",
+            }}
+          >
+            Apr 2021
+          </span>
+          Language Learning - Feed Report
+        </a>
+        <a
+          style={{
+            fontSize: "13px",
+            display: "flex",
+            flexDirection: "row",
+            color: "#555",
+            marginBottom: "5px",
+            paddingTop: "10px",
+            paddingBottom: "10px",
+            width: "50%",
+            float: "left",
+            backgroundColor: "transparent",
+            textDecoration: "none",
+            boxSizing: "border-box",
+            cursor: "pointer",
+            lineHeight: "1.42857143",
+          }}
+          href="/"
+        >
+          <span
+            style={{
+              width: "90px",
+              color: "#999",
+              display: "inline-block",
+              paddingLeft: "10px",
+              boxSizing: "border-box",
+              fontSize: "13px",
+              cursor: "pointer",
+              lineHeight: "1.42857143",
+            }}
+          >
+            Apr 2021
+          </span>
+          Language Learning - Feed Report
+        </a>
+        <a
+          style={{
+            fontSize: "13px",
+            display: "flex",
+            flexDirection: "row",
+            color: "#555",
+            marginBottom: "5px",
+            paddingTop: "10px",
+            paddingBottom: "10px",
+            width: "50%",
+            float: "left",
+            backgroundColor: "transparent",
+            textDecoration: "none",
+            boxSizing: "border-box",
+            cursor: "pointer",
+            lineHeight: "1.42857143",
+          }}
+          href="/"
+        >
+          <span
+            style={{
+              width: "90px",
+              color: "#999",
+              display: "inline-block",
+              paddingLeft: "10px",
+              boxSizing: "border-box",
+              fontSize: "13px",
+              cursor: "pointer",
+              lineHeight: "1.42857143",
+            }}
+          >
+            Apr 2021
+          </span>
+          Language Learning - Feed Report
+        </a>
+        <a
+          style={{
+            fontSize: "13px",
+            display: "flex",
+            flexDirection: "row",
+            color: "#555",
+            marginBottom: "5px",
+            paddingTop: "10px",
+            paddingBottom: "10px",
+            width: "50%",
+            float: "left",
+            backgroundColor: "transparent",
+            textDecoration: "none",
+            boxSizing: "border-box",
+            cursor: "pointer",
+            lineHeight: "1.42857143",
+          }}
+          href="/"
+        >
+          <span
+            style={{
+              width: "90px",
+              color: "#999",
+              display: "inline-block",
+              paddingLeft: "10px",
+              boxSizing: "border-box",
+              fontSize: "13px",
+              cursor: "pointer",
+              lineHeight: "1.42857143",
+            }}
+          >
+            Apr 2021
+          </span>
+          Language Learning - Feed Report
+        </a>
+        <a
+          style={{
+            fontSize: "13px",
+            display: "flex",
+            flexDirection: "row",
+            color: "#555",
+            marginBottom: "5px",
+            paddingTop: "10px",
+            paddingBottom: "10px",
+            width: "50%",
+            float: "left",
+            backgroundColor: "transparent",
+            textDecoration: "none",
+            boxSizing: "border-box",
+            cursor: "pointer",
+            lineHeight: "1.42857143",
+          }}
+          href="/"
+        >
+          <span
+            style={{
+              width: "90px",
+              color: "#999",
+              display: "inline-block",
+              paddingLeft: "10px",
+              boxSizing: "border-box",
+              fontSize: "13px",
+              cursor: "pointer",
+              lineHeight: "1.42857143",
+            }}
+          >
+            Apr 2021
+          </span>
+          Language Learning - Feed Report
+        </a>
+        <a
+          style={{
+            fontSize: "13px",
+            display: "flex",
+            flexDirection: "row",
+            color: "#555",
+            marginBottom: "5px",
+            paddingTop: "10px",
+            paddingBottom: "10px",
+            width: "50%",
+            float: "left",
+            backgroundColor: "transparent",
+            textDecoration: "none",
+            boxSizing: "border-box",
+            cursor: "pointer",
+            lineHeight: "1.42857143",
+          }}
+          href="/"
+        >
+          <span
+            style={{
+              width: "90px",
+              color: "#999",
+              display: "inline-block",
+              paddingLeft: "10px",
+              boxSizing: "border-box",
+              fontSize: "13px",
+              cursor: "pointer",
+              lineHeight: "1.42857143",
+            }}
+          >
+            Apr 2021
+          </span>
+          Language Learning - Feed Report
+        </a>
+        <a
+          style={{
+            fontSize: "13px",
+            display: "flex",
+            flexDirection: "row",
+            color: "#555",
+            marginBottom: "5px",
+            paddingTop: "10px",
+            paddingBottom: "10px",
+            width: "50%",
+            float: "left",
+            backgroundColor: "transparent",
+            textDecoration: "none",
+            boxSizing: "border-box",
+            cursor: "pointer",
+            lineHeight: "1.42857143",
+          }}
+          href="/"
+        >
+          <span
+            style={{
+              width: "90px",
+              color: "#999",
+              display: "inline-block",
+              paddingLeft: "10px",
+              boxSizing: "border-box",
+              fontSize: "13px",
+              cursor: "pointer",
+              lineHeight: "1.42857143",
+            }}
+          >
+            Apr 2021
+          </span>
+          Language Learning - Feed Report
+        </a>
+        <a
+          style={{
+            fontSize: "13px",
+            display: "flex",
+            flexDirection: "row",
+            color: "#555",
+            marginBottom: "5px",
+            paddingTop: "10px",
+            paddingBottom: "10px",
+            width: "50%",
+            float: "left",
+            backgroundColor: "transparent",
+            textDecoration: "none",
+            boxSizing: "border-box",
+            cursor: "pointer",
+            lineHeight: "1.42857143",
+          }}
+          href="/"
+        >
+          <span
+            style={{
+              width: "90px",
+              color: "#999",
+              display: "inline-block",
+              paddingLeft: "10px",
+              boxSizing: "border-box",
+              fontSize: "13px",
+              cursor: "pointer",
+              lineHeight: "1.42857143",
+            }}
+          >
+            Apr 2021
+          </span>
+          Language Learning - Feed Report
+        </a>
+        <a
+          style={{
+            fontSize: "13px",
+            display: "flex",
+            flexDirection: "row",
+            color: "#555",
+            marginBottom: "5px",
+            paddingTop: "10px",
+            paddingBottom: "10px",
+            width: "50%",
+            float: "left",
+            backgroundColor: "transparent",
+            textDecoration: "none",
+            boxSizing: "border-box",
+            cursor: "pointer",
+            lineHeight: "1.42857143",
+          }}
+          href="/"
+        >
+          <span
+            style={{
+              width: "90px",
+              color: "#999",
+              display: "inline-block",
+              paddingLeft: "10px",
+              boxSizing: "border-box",
+              fontSize: "13px",
+              cursor: "pointer",
+              lineHeight: "1.42857143",
+            }}
+          >
+            Apr 2021
+          </span>
+          Language Learning - Feed Report
+        </a>
+        <a
+          style={{
+            fontSize: "13px",
+            display: "flex",
+            flexDirection: "row",
+            color: "#555",
+            marginBottom: "5px",
+            paddingTop: "10px",
+            paddingBottom: "10px",
+            width: "50%",
+            float: "left",
+            backgroundColor: "transparent",
+            textDecoration: "none",
+            boxSizing: "border-box",
+            cursor: "pointer",
+            lineHeight: "1.42857143",
+          }}
+          href="/"
+        >
+          <span
+            style={{
+              width: "90px",
+              color: "#999",
+              display: "inline-block",
+              paddingLeft: "10px",
+              boxSizing: "border-box",
+              fontSize: "13px",
+              cursor: "pointer",
+              lineHeight: "1.42857143",
+            }}
+          >
+            Apr 2021
+          </span>
+          Language Learning - Feed Report
+        </a>
+        <a
+          style={{
+            fontSize: "13px",
+            display: "flex",
+            flexDirection: "row",
+            color: "#555",
+            marginBottom: "5px",
+            paddingTop: "10px",
+            paddingBottom: "10px",
+            width: "50%",
+            float: "left",
+            backgroundColor: "transparent",
+            textDecoration: "none",
+            boxSizing: "border-box",
+            cursor: "pointer",
+            lineHeight: "1.42857143",
+          }}
+          href="/"
+        >
+          <span
+            style={{
+              width: "90px",
+              color: "#999",
+              display: "inline-block",
+              paddingLeft: "10px",
+              boxSizing: "border-box",
+              fontSize: "13px",
+              cursor: "pointer",
+              lineHeight: "1.42857143",
+            }}
+          >
+            Apr 2021
+          </span>
+          Language Learning - Feed Report
+        </a>
+        <a
+          style={{
+            fontSize: "13px",
+            display: "flex",
+            flexDirection: "row",
+            color: "#555",
+            marginBottom: "5px",
+            paddingTop: "10px",
+            paddingBottom: "10px",
+            width: "50%",
+            float: "left",
+            backgroundColor: "transparent",
+            textDecoration: "none",
+            boxSizing: "border-box",
+            cursor: "pointer",
+            lineHeight: "1.42857143",
+          }}
+          href="/"
+        >
+          <span
+            style={{
+              width: "90px",
+              color: "#999",
+              display: "inline-block",
+              paddingLeft: "10px",
+              boxSizing: "border-box",
+              fontSize: "13px",
+              cursor: "pointer",
+              lineHeight: "1.42857143",
+            }}
+          >
+            Apr 2021
+          </span>
+          Language Learning - Feed Report
+        </a>
+        <a
+          style={{
+            fontSize: "13px",
+            display: "flex",
+            flexDirection: "row",
+            color: "#555",
+            marginBottom: "5px",
+            paddingTop: "10px",
+            paddingBottom: "10px",
+            width: "50%",
+            float: "left",
+            backgroundColor: "transparent",
+            textDecoration: "none",
+            boxSizing: "border-box",
+            cursor: "pointer",
+            lineHeight: "1.42857143",
+          }}
+          href="/"
+        >
+          <span
+            style={{
+              width: "90px",
+              color: "#999",
+              display: "inline-block",
+              paddingLeft: "10px",
+              boxSizing: "border-box",
+              fontSize: "13px",
+              cursor: "pointer",
+              lineHeight: "1.42857143",
+            }}
+          >
+            Apr 2021
+          </span>
+          Language Learning - Feed Report
+        </a>
+        <a
+          style={{
+            fontSize: "13px",
+            display: "flex",
+            flexDirection: "row",
+            color: "#555",
+            marginBottom: "5px",
+            paddingTop: "10px",
+            paddingBottom: "10px",
+            width: "50%",
+            float: "left",
+            backgroundColor: "transparent",
+            textDecoration: "none",
+            boxSizing: "border-box",
+            cursor: "pointer",
+            lineHeight: "1.42857143",
+          }}
+          href="/"
+        >
+          <span
+            style={{
+              width: "90px",
+              color: "#999",
+              display: "inline-block",
+              paddingLeft: "10px",
+              boxSizing: "border-box",
+              fontSize: "13px",
+              cursor: "pointer",
+              lineHeight: "1.42857143",
+            }}
+          >
+            Apr 2021
+          </span>
+          Language Learning - Feed Report
+        </a>
+        <a
+          style={{
+            fontSize: "13px",
+            display: "flex",
+            flexDirection: "row",
+            color: "#555",
+            marginBottom: "5px",
+            paddingTop: "10px",
+            paddingBottom: "10px",
+            width: "50%",
+            float: "left",
+            backgroundColor: "transparent",
+            textDecoration: "none",
+            boxSizing: "border-box",
+            cursor: "pointer",
+            lineHeight: "1.42857143",
+          }}
+          href="/"
+        >
+          <span
+            style={{
+              width: "90px",
+              color: "#999",
+              display: "inline-block",
+              paddingLeft: "10px",
+              boxSizing: "border-box",
+              fontSize: "13px",
+              cursor: "pointer",
+              lineHeight: "1.42857143",
+            }}
+          >
+            Apr 2021
+          </span>
+          Language Learning - Feed Report
+        </a>
+        {/* </Container> */}
+      </div>
+      <div
+        style={{
+          marginTop: "40px",
+          position: "relative",
+          textAlign: "center",
+          color: "#555",
+          boxSizing: "border-box",
+          display: "block",
+          fontSize: "14px",
+        }}
+      ></div>
     </>
   );
 }
