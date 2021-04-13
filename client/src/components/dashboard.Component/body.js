@@ -1162,8 +1162,1434 @@ export default function body() {
           </div>
         </div>
       </div>
-      <div>
-        
+      <div
+        className="sectors we work"
+        style={{
+          width: "980px",
+          maxWidth: "100%",
+          marginLeft: "auto",
+          marginRight: "auto",
+          boxShadow: "none",
+          padding: "10px",
+          background: "#fff",
+          borderRadius: "1px",
+          boxSizing: "border-box",
+          display: "block",
+        }}
+      >
+        <div
+          style={{
+            marginTop: "40px",
+            position: "relative",
+            textAlign: "center",
+            color: "#555",
+            boxSizing: "border-box",
+            display: "block",
+          }}
+        >
+          <span
+            style={{
+              zIndex: "3",
+              fontSize: "28px",
+              margin: "0",
+              maxWidth: "580px",
+              position: "relative",
+              display: "inline-block",
+              background: "#fff",
+              color: "#404040",
+              paddingLeft: "20px",
+              paddingRight: "20px",
+              boxSizing: "border-box",
+              textAlign: "center",
+            }}
+          >
+            Sectors We Track
+          </span>
+        </div>
+        <p
+          style={{
+            marginBottom: "25px",
+            textAlign: "center",
+            color: "#555",
+            marginTop: "7px",
+            paddingLeft: "10px",
+            paddingRight: "10px",
+            margin: "0 0 10px",
+            boxSizing: "border-box",
+            display: "block",
+            marginBlockStart: "1em",
+            marginBlockEnd: "1em",
+            marginInlineStart: "0px",
+            marginInlineEnd: "0px",
+          }}
+        >
+          Tracking 500+ sectors and counting!
+        </p>
+        <div
+          className="explore sectors"
+          style={{
+            fontFamily: "Poppins, sans-serif !important",
+            marginTop: "40px",
+            boxSizing: "border-box",
+            display: "block",
+          }}
+        >
+          <h4
+            style={{
+              fontSize: "14px",
+              textAlign: "center",
+              color: "#999",
+              marginTop: "25px",
+              marginBottom: "25px",
+              fontFamily: "inherit",
+              fontWeight: "500",
+              lineHeight: "1.1",
+              boxSizing: "border-box",
+              display: "block",
+              marginBlockStart: "1.33em",
+              marginBlockEnd: "1.33em",
+              marginInlineStart: "0px",
+              marginInlineEnd: "0px",
+            }}
+          >
+            EXPLORE SECTORS
+          </h4>
+          <div
+            style={{
+              maxWidth: "850px",
+              flexWrap: "wrap",
+              justifyContent: "center",
+              display: "flex",
+              margin: "0 auto",
+              boxSizing: "border-box",
+            }}
+          >
+            <div
+              style={{
+                width: "170px",
+                borderRadius: "40px",
+                marginBottom: "30px",
+                boxShadow:
+                  "0 -1px 4px rgb(0 0 0 / 5%), 0 4px 4px rgb(0 0 0 / 10%)",
+                fontSize: "14px",
+                textDecoration: "none",
+                cursor: "pointer",
+                textAlign: "center",
+                display: "inline-block",
+                background: "#fff",
+                color: "#333",
+                paddingTop: "15px",
+                paddingBottom: "15px",
+                marginLeft: "10px",
+                marginRight: "10px",
+                boxSizing: "border-box",
+              }}
+            >
+              Practice Areas
+            </div>
+            <div
+              style={{
+                width: "170px",
+                borderRadius: "40px",
+                marginBottom: "30px",
+                boxShadow:
+                  "0 -1px 4px rgb(0 0 0 / 5%), 0 4px 4px rgb(0 0 0 / 10%)",
+                fontSize: "14px",
+                textDecoration: "none",
+                cursor: "pointer",
+                textAlign: "center",
+                display: "inline-block",
+                background: "#fff",
+                color: "#333",
+                paddingTop: "15px",
+                paddingBottom: "15px",
+                marginLeft: "10px",
+                marginRight: "10px",
+                boxSizing: "border-box",
+              }}
+            >
+              Geographies
+            </div>
+            <div
+              style={{
+                width: "170px",
+                borderRadius: "40px",
+                marginBottom: "30px",
+                boxShadow:
+                  "0 -1px 4px rgb(0 0 0 / 5%), 0 4px 4px rgb(0 0 0 / 10%)",
+                fontSize: "14px",
+                textDecoration: "none",
+                cursor: "pointer",
+                textAlign: "center",
+                display: "inline-block",
+                background: "#fff",
+                color: "#333",
+                paddingTop: "15px",
+                paddingBottom: "15px",
+                marginLeft: "10px",
+                marginRight: "10px",
+                boxSizing: "border-box",
+              }}
+            >
+              Waves
+            </div>
+            <div
+              style={{
+                width: "170px",
+                borderRadius: "40px",
+                marginBottom: "30px",
+                boxShadow:
+                  "0 -1px 4px rgb(0 0 0 / 5%), 0 4px 4px rgb(0 0 0 / 10%)",
+                fontSize: "14px",
+                textDecoration: "none",
+                cursor: "pointer",
+                textAlign: "center",
+                display: "inline-block",
+                background: "#fff",
+                color: "#333",
+                paddingTop: "15px",
+                paddingBottom: "15px",
+                marginLeft: "10px",
+                marginRight: "10px",
+                boxSizing: "border-box",
+              }}
+            >
+              Trending Themes
+            </div>
+            <div
+              style={{
+                width: "170px",
+                borderRadius: "40px",
+                marginBottom: "30px",
+                boxShadow:
+                  "0 -1px 4px rgb(0 0 0 / 5%), 0 4px 4px rgb(0 0 0 / 10%)",
+                fontSize: "14px",
+                textDecoration: "none",
+                cursor: "pointer",
+                textAlign: "center",
+                display: "inline-block",
+                background: "#fff",
+                color: "#333",
+                paddingTop: "15px",
+                paddingBottom: "15px",
+                marginLeft: "10px",
+                marginRight: "10px",
+                boxSizing: "border-box",
+              }}
+            >
+              Team Background
+            </div>
+            <div
+              style={{
+                width: "170px",
+                borderRadius: "40px",
+                marginBottom: "30px",
+                boxShadow:
+                  "0 -1px 4px rgb(0 0 0 / 5%), 0 4px 4px rgb(0 0 0 / 10%)",
+                fontSize: "14px",
+                textDecoration: "none",
+                cursor: "pointer",
+                textAlign: "center",
+                display: "inline-block",
+                background: "#fff",
+                color: "#333",
+                paddingTop: "15px",
+                paddingBottom: "15px",
+                marginLeft: "10px",
+                marginRight: "10px",
+                boxSizing: "border-box",
+              }}
+            >
+              Unbundling
+            </div>
+            <div
+              style={{
+                width: "170px",
+                borderRadius: "40px",
+                marginBottom: "30px",
+                boxShadow:
+                  "0 -1px 4px rgb(0 0 0 / 5%), 0 4px 4px rgb(0 0 0 / 10%)",
+                fontSize: "14px",
+                textDecoration: "none",
+                cursor: "pointer",
+                textAlign: "center",
+                display: "inline-block",
+                background: "#fff",
+                color: "#333",
+                paddingTop: "15px",
+                paddingBottom: "15px",
+                marginLeft: "10px",
+                marginRight: "10px",
+                boxSizing: "border-box",
+              }}
+            >
+              Y for X
+            </div>
+            <div
+              style={{
+                width: "170px",
+                borderRadius: "40px",
+                marginBottom: "30px",
+                boxShadow:
+                  "0 -1px 4px rgb(0 0 0 / 5%), 0 4px 4px rgb(0 0 0 / 10%)",
+                fontSize: "14px",
+                textDecoration: "none",
+                cursor: "pointer",
+                textAlign: "center",
+                display: "inline-block",
+                background: "#fff",
+                color: "#333",
+                paddingTop: "15px",
+                paddingBottom: "15px",
+                marginLeft: "10px",
+                marginRight: "10px",
+                boxSizing: "border-box",
+              }}
+            >
+              Industries
+            </div>
+            <div
+              style={{
+                width: "170px",
+                borderRadius: "40px",
+                marginBottom: "30px",
+                boxShadow:
+                  "0 -1px 4px rgb(0 0 0 / 5%), 0 4px 4px rgb(0 0 0 / 10%)",
+                fontSize: "14px",
+                textDecoration: "none",
+                cursor: "pointer",
+                textAlign: "center",
+                display: "inline-block",
+                background: "#fff",
+                color: "#333",
+                paddingTop: "15px",
+                paddingBottom: "15px",
+                marginLeft: "10px",
+                marginRight: "10px",
+                boxSizing: "border-box",
+              }}
+            >
+              Investment Industry
+            </div>
+            <div
+              style={{
+                width: "170px",
+                borderRadius: "40px",
+                marginBottom: "30px",
+                boxShadow:
+                  "0 -1px 4px rgb(0 0 0 / 5%), 0 4px 4px rgb(0 0 0 / 10%)",
+                fontSize: "14px",
+                textDecoration: "none",
+                cursor: "pointer",
+                textAlign: "center",
+                display: "inline-block",
+                background: "#fff",
+                color: "#333",
+                paddingTop: "15px",
+                paddingBottom: "15px",
+                marginLeft: "10px",
+                marginRight: "10px",
+                boxSizing: "border-box",
+              }}
+            >
+              Generic Lists
+            </div>
+          </div>
+        </div>
+        <div
+          style={{
+            flexWrap: "wrap",
+            justifyContent: "space-around",
+            display: "flex",
+            flexDirection: "row",
+            marginLeft: "10px",
+            boxSizing: "border-box",
+          }}
+        >
+          <a
+            href="/login"
+            style={{
+              width: "220px",
+              marginRight: "10px",
+              alignItems: "center",
+              textDecoration: "none",
+              display: "inline-flex",
+              flexDirection: "row",
+              padding: "10px",
+              backgroundColor: "transparent",
+              boxSizing: "border-box",
+              cursor: "pointer",
+            }}
+          >
+            <i class="fa fa-feed"></i>
+            <span
+              style={{
+                width: "auto",
+                overflow: "hidden",
+                whiteSpace: "nowrap",
+                textOverflow: "ellipsis",
+                color: "#333",
+                paddingLeft: "10px",
+                boxSizing: "border-box",
+              }}
+            >
+              Telemedicine
+            </span>
+          </a>
+          <a
+            href="/login"
+            style={{
+              width: "220px",
+              marginRight: "10px",
+              alignItems: "center",
+              textDecoration: "none",
+              display: "inline-flex",
+              flexDirection: "row",
+              padding: "10px",
+              backgroundColor: "transparent",
+              boxSizing: "border-box",
+              cursor: "pointer",
+            }}
+          >
+            <i class="fa fa-feed"></i>
+            <span
+              style={{
+                width: "auto",
+                overflow: "hidden",
+                whiteSpace: "nowrap",
+                textOverflow: "ellipsis",
+                color: "#333",
+                paddingLeft: "10px",
+                boxSizing: "border-box",
+              }}
+            >
+              Online Health Information
+            </span>
+          </a>
+          <a
+            href="/login"
+            style={{
+              width: "220px",
+              marginRight: "10px",
+              alignItems: "center",
+              textDecoration: "none",
+              display: "inline-flex",
+              flexDirection: "row",
+              padding: "10px",
+              backgroundColor: "transparent",
+              boxSizing: "border-box",
+              cursor: "pointer",
+            }}
+          >
+            <i class="fa fa-feed"></i>
+            <span
+              style={{
+                width: "auto",
+                overflow: "hidden",
+                whiteSpace: "nowrap",
+                textOverflow: "ellipsis",
+                color: "#333",
+                paddingLeft: "10px",
+                boxSizing: "border-box",
+              }}
+            >
+              Freelancer Marketplace
+            </span>
+          </a>
+          <a
+            href="/login"
+            style={{
+              width: "220px",
+              marginRight: "10px",
+              alignItems: "center",
+              textDecoration: "none",
+              display: "inline-flex",
+              flexDirection: "row",
+              padding: "10px",
+              backgroundColor: "transparent",
+              boxSizing: "border-box",
+              cursor: "pointer",
+            }}
+          >
+            <i class="fa fa-feed"></i>
+            <span
+              style={{
+                width: "auto",
+                overflow: "hidden",
+                whiteSpace: "nowrap",
+                textOverflow: "ellipsis",
+                color: "#333",
+                paddingLeft: "10px",
+                boxSizing: "border-box",
+              }}
+            >
+              Horizontal E-Commerce
+            </span>
+          </a>
+          <a
+            href="/login"
+            style={{
+              width: "220px",
+              marginRight: "10px",
+              alignItems: "center",
+              textDecoration: "none",
+              display: "inline-flex",
+              flexDirection: "row",
+              padding: "10px",
+              backgroundColor: "transparent",
+              boxSizing: "border-box",
+              cursor: "pointer",
+            }}
+          >
+            <i class="fa fa-feed"></i>
+            <span
+              style={{
+                width: "auto",
+                overflow: "hidden",
+                whiteSpace: "nowrap",
+                textOverflow: "ellipsis",
+                color: "#333",
+                paddingLeft: "10px",
+                boxSizing: "border-box",
+              }}
+            >
+              Gambling Tech
+            </span>
+          </a>
+          <a
+            href="/login"
+            style={{
+              width: "220px",
+              marginRight: "10px",
+              alignItems: "center",
+              textDecoration: "none",
+              display: "inline-flex",
+              flexDirection: "row",
+              padding: "10px",
+              backgroundColor: "transparent",
+              boxSizing: "border-box",
+              cursor: "pointer",
+            }}
+          >
+            <i class="fa fa-feed"></i>
+            <span
+              style={{
+                width: "auto",
+                overflow: "hidden",
+                whiteSpace: "nowrap",
+                textOverflow: "ellipsis",
+                color: "#333",
+                paddingLeft: "10px",
+                boxSizing: "border-box",
+              }}
+            >
+              Recipe Box
+            </span>
+          </a>
+          <a
+            href="/login"
+            style={{
+              width: "220px",
+              marginRight: "10px",
+              alignItems: "center",
+              textDecoration: "none",
+              display: "inline-flex",
+              flexDirection: "row",
+              padding: "10px",
+              backgroundColor: "transparent",
+              boxSizing: "border-box",
+              cursor: "pointer",
+            }}
+          >
+            <i class="fa fa-feed"></i>
+            <span
+              style={{
+                width: "auto",
+                overflow: "hidden",
+                whiteSpace: "nowrap",
+                textOverflow: "ellipsis",
+                color: "#333",
+                paddingLeft: "10px",
+                boxSizing: "border-box",
+              }}
+            >
+              Online Gaming Platforms
+            </span>
+          </a>
+          <a
+            href="/login"
+            style={{
+              width: "220px",
+              marginRight: "10px",
+              alignItems: "center",
+              textDecoration: "none",
+              display: "inline-flex",
+              flexDirection: "row",
+              padding: "10px",
+              backgroundColor: "transparent",
+              boxSizing: "border-box",
+              cursor: "pointer",
+            }}
+          >
+            <i class="fa fa-feed"></i>
+            <span
+              style={{
+                width: "auto",
+                overflow: "hidden",
+                whiteSpace: "nowrap",
+                textOverflow: "ellipsis",
+                color: "#333",
+                paddingLeft: "10px",
+                boxSizing: "border-box",
+              }}
+            >
+              Online Courses
+            </span>
+          </a>
+          <a
+            href="/login"
+            style={{
+              width: "220px",
+              marginRight: "10px",
+              alignItems: "center",
+              textDecoration: "none",
+              display: "inline-flex",
+              flexDirection: "row",
+              padding: "10px",
+              backgroundColor: "transparent",
+              boxSizing: "border-box",
+              cursor: "pointer",
+            }}
+          >
+            <i class="fa fa-feed"></i>
+            <span
+              style={{
+                width: "auto",
+                overflow: "hidden",
+                whiteSpace: "nowrap",
+                textOverflow: "ellipsis",
+                color: "#333",
+                paddingLeft: "10px",
+                boxSizing: "border-box",
+              }}
+            >
+              B2C Grocery Delivery
+            </span>
+          </a>
+          <a
+            href="/login"
+            style={{
+              width: "220px",
+              marginRight: "10px",
+              alignItems: "center",
+              textDecoration: "none",
+              display: "inline-flex",
+              flexDirection: "row",
+              padding: "10px",
+              backgroundColor: "transparent",
+              boxSizing: "border-box",
+              cursor: "pointer",
+            }}
+          >
+            <i class="fa fa-feed"></i>
+            <span
+              style={{
+                width: "auto",
+                overflow: "hidden",
+                whiteSpace: "nowrap",
+                textOverflow: "ellipsis",
+                color: "#333",
+                paddingLeft: "10px",
+                boxSizing: "border-box",
+              }}
+            >
+              OTT Streaming Platforms
+            </span>
+          </a>
+          <a
+            href="/login"
+            style={{
+              width: "220px",
+              marginRight: "10px",
+              alignItems: "center",
+              textDecoration: "none",
+              display: "inline-flex",
+              flexDirection: "row",
+              padding: "10px",
+              backgroundColor: "transparent",
+              boxSizing: "border-box",
+              cursor: "pointer",
+            }}
+          >
+            <i class="fa fa-feed"></i>
+            <span
+              style={{
+                width: "auto",
+                overflow: "hidden",
+                whiteSpace: "nowrap",
+                textOverflow: "ellipsis",
+                color: "#333",
+                paddingLeft: "10px",
+                boxSizing: "border-box",
+              }}
+            >
+              Kids Hobby Classes
+            </span>
+          </a>
+          <a
+            href="/login"
+            style={{
+              width: "220px",
+              marginRight: "10px",
+              alignItems: "center",
+              textDecoration: "none",
+              display: "inline-flex",
+              flexDirection: "row",
+              padding: "10px",
+              backgroundColor: "transparent",
+              boxSizing: "border-box",
+              cursor: "pointer",
+            }}
+          >
+            <i class="fa fa-feed"></i>
+            <span
+              style={{
+                width: "auto",
+                overflow: "hidden",
+                whiteSpace: "nowrap",
+                textOverflow: "ellipsis",
+                color: "#333",
+                paddingLeft: "10px",
+                boxSizing: "border-box",
+              }}
+            >
+              Online Events
+            </span>
+          </a>
+          <a
+            href="/login"
+            style={{
+              width: "220px",
+              marginRight: "10px",
+              alignItems: "center",
+              textDecoration: "none",
+              display: "inline-flex",
+              flexDirection: "row",
+              padding: "10px",
+              backgroundColor: "transparent",
+              boxSizing: "border-box",
+              cursor: "pointer",
+            }}
+          >
+            <i class="fa fa-feed"></i>
+            <span
+              style={{
+                width: "auto",
+                overflow: "hidden",
+                whiteSpace: "nowrap",
+                textOverflow: "ellipsis",
+                color: "#333",
+                paddingLeft: "10px",
+                boxSizing: "border-box",
+              }}
+            >
+              At Home Fitness
+            </span>
+          </a>
+          <a
+            href="/login"
+            style={{
+              width: "220px",
+              marginRight: "10px",
+              alignItems: "center",
+              textDecoration: "none",
+              display: "inline-flex",
+              flexDirection: "row",
+              padding: "10px",
+              backgroundColor: "transparent",
+              boxSizing: "border-box",
+              cursor: "pointer",
+            }}
+          >
+            <i class="fa fa-feed"></i>
+            <span
+              style={{
+                width: "auto",
+                overflow: "hidden",
+                whiteSpace: "nowrap",
+                textOverflow: "ellipsis",
+                color: "#333",
+                paddingLeft: "10px",
+                boxSizing: "border-box",
+              }}
+            >
+              Remote Work Tools
+            </span>
+          </a>
+          <a
+            href="/login"
+            style={{
+              width: "220px",
+              marginRight: "10px",
+              alignItems: "center",
+              textDecoration: "none",
+              display: "inline-flex",
+              flexDirection: "row",
+              padding: "10px",
+              backgroundColor: "transparent",
+              boxSizing: "border-box",
+              cursor: "pointer",
+            }}
+          >
+            <i class="fa fa-feed"></i>
+            <span
+              style={{
+                width: "auto",
+                overflow: "hidden",
+                whiteSpace: "nowrap",
+                textOverflow: "ellipsis",
+                color: "#333",
+                paddingLeft: "10px",
+                boxSizing: "border-box",
+              }}
+            >
+              Plant Based Protein
+            </span>
+          </a>
+          <a
+            href="/login"
+            style={{
+              width: "220px",
+              marginRight: "10px",
+              alignItems: "center",
+              textDecoration: "none",
+              display: "inline-flex",
+              flexDirection: "row",
+              padding: "10px",
+              backgroundColor: "transparent",
+              boxSizing: "border-box",
+              cursor: "pointer",
+            }}
+          >
+            <i class="fa fa-feed"></i>
+            <span
+              style={{
+                width: "auto",
+                overflow: "hidden",
+                whiteSpace: "nowrap",
+                textOverflow: "ellipsis",
+                color: "#333",
+                paddingLeft: "10px",
+                boxSizing: "border-box",
+              }}
+            >
+              Online Tutoring
+            </span>
+          </a>
+          <a
+            href="/login"
+            style={{
+              width: "220px",
+              marginRight: "10px",
+              alignItems: "center",
+              textDecoration: "none",
+              display: "inline-flex",
+              flexDirection: "row",
+              padding: "10px",
+              backgroundColor: "transparent",
+              boxSizing: "border-box",
+              cursor: "pointer",
+            }}
+          >
+            <i class="fa fa-feed"></i>
+            <span
+              style={{
+                width: "auto",
+                overflow: "hidden",
+                whiteSpace: "nowrap",
+                textOverflow: "ellipsis",
+                color: "#333",
+                paddingLeft: "10px",
+                boxSizing: "border-box",
+              }}
+            >
+              AR VR in Retail
+            </span>
+          </a>
+          <a
+            href="/login"
+            style={{
+              width: "220px",
+              marginRight: "10px",
+              alignItems: "center",
+              textDecoration: "none",
+              display: "inline-flex",
+              flexDirection: "row",
+              padding: "10px",
+              backgroundColor: "transparent",
+              boxSizing: "border-box",
+              cursor: "pointer",
+            }}
+          >
+            <i class="fa fa-feed"></i>
+            <span
+              style={{
+                width: "auto",
+                overflow: "hidden",
+                whiteSpace: "nowrap",
+                textOverflow: "ellipsis",
+                color: "#333",
+                paddingLeft: "10px",
+                boxSizing: "border-box",
+              }}
+            >
+              AR VR in Healthcare
+            </span>
+          </a>
+          <a
+            href="/login"
+            style={{
+              width: "220px",
+              marginRight: "10px",
+              alignItems: "center",
+              textDecoration: "none",
+              display: "inline-flex",
+              flexDirection: "row",
+              padding: "10px",
+              backgroundColor: "transparent",
+              boxSizing: "border-box",
+              cursor: "pointer",
+            }}
+          >
+            <i class="fa fa-feed"></i>
+            <span
+              style={{
+                width: "auto",
+                overflow: "hidden",
+                whiteSpace: "nowrap",
+                textOverflow: "ellipsis",
+                color: "#333",
+                paddingLeft: "10px",
+                boxSizing: "border-box",
+              }}
+            >
+              AR VR in Education
+            </span>
+          </a>
+          <a
+            href="/login"
+            style={{
+              width: "220px",
+              marginRight: "10px",
+              alignItems: "center",
+              textDecoration: "none",
+              display: "inline-flex",
+              flexDirection: "row",
+              padding: "10px",
+              backgroundColor: "transparent",
+              boxSizing: "border-box",
+              cursor: "pointer",
+            }}
+          >
+            <i class="fa fa-feed"></i>
+            <span
+              style={{
+                width: "auto",
+                overflow: "hidden",
+                whiteSpace: "nowrap",
+                textOverflow: "ellipsis",
+                color: "#333",
+                paddingLeft: "10px",
+                boxSizing: "border-box",
+              }}
+            >
+              AR VR in Real Estate
+            </span>
+          </a>
+          <a
+            href="/login"
+            style={{
+              width: "220px",
+              marginRight: "10px",
+              alignItems: "center",
+              textDecoration: "none",
+              display: "inline-flex",
+              flexDirection: "row",
+              padding: "10px",
+              backgroundColor: "transparent",
+              boxSizing: "border-box",
+              cursor: "pointer",
+            }}
+          >
+            <i class="fa fa-feed"></i>
+            <span
+              style={{
+                width: "auto",
+                overflow: "hidden",
+                whiteSpace: "nowrap",
+                textOverflow: "ellipsis",
+                color: "#333",
+                paddingLeft: "10px",
+                boxSizing: "border-box",
+              }}
+            >
+              Cybersecurity
+            </span>
+          </a>
+          <a
+            href="/login"
+            style={{
+              width: "220px",
+              marginRight: "10px",
+              alignItems: "center",
+              textDecoration: "none",
+              display: "inline-flex",
+              flexDirection: "row",
+              padding: "10px",
+              backgroundColor: "transparent",
+              boxSizing: "border-box",
+              cursor: "pointer",
+            }}
+          >
+            <i class="fa fa-feed"></i>
+            <span
+              style={{
+                width: "auto",
+                overflow: "hidden",
+                whiteSpace: "nowrap",
+                textOverflow: "ellipsis",
+                color: "#333",
+                paddingLeft: "10px",
+                boxSizing: "border-box",
+              }}
+            >
+              Enterprise Networking
+            </span>
+          </a>
+          <a
+            href="/login"
+            style={{
+              width: "220px",
+              marginRight: "10px",
+              alignItems: "center",
+              textDecoration: "none",
+              display: "inline-flex",
+              flexDirection: "row",
+              padding: "10px",
+              backgroundColor: "transparent",
+              boxSizing: "border-box",
+              cursor: "pointer",
+            }}
+          >
+            <i class="fa fa-feed"></i>
+            <span
+              style={{
+                width: "auto",
+                overflow: "hidden",
+                whiteSpace: "nowrap",
+                textOverflow: "ellipsis",
+                color: "#333",
+                paddingLeft: "10px",
+                boxSizing: "border-box",
+              }}
+            >
+              IT Operations
+            </span>
+          </a>
+          <a
+            href="/login"
+            style={{
+              width: "220px",
+              marginRight: "10px",
+              alignItems: "center",
+              textDecoration: "none",
+              display: "inline-flex",
+              flexDirection: "row",
+              padding: "10px",
+              backgroundColor: "transparent",
+              boxSizing: "border-box",
+              cursor: "pointer",
+            }}
+          >
+            <i class="fa fa-feed"></i>
+            <span
+              style={{
+                width: "auto",
+                overflow: "hidden",
+                whiteSpace: "nowrap",
+                textOverflow: "ellipsis",
+                color: "#333",
+                paddingLeft: "10px",
+                boxSizing: "border-box",
+              }}
+            >
+              Data Center Infrastructure
+            </span>
+          </a>
+          <a
+            href="/login"
+            style={{
+              width: "220px",
+              marginRight: "10px",
+              alignItems: "center",
+              textDecoration: "none",
+              display: "inline-flex",
+              flexDirection: "row",
+              padding: "10px",
+              backgroundColor: "transparent",
+              boxSizing: "border-box",
+              cursor: "pointer",
+            }}
+          >
+            <i class="fa fa-feed"></i>
+            <span
+              style={{
+                width: "auto",
+                overflow: "hidden",
+                whiteSpace: "nowrap",
+                textOverflow: "ellipsis",
+                color: "#333",
+                paddingLeft: "10px",
+                boxSizing: "border-box",
+              }}
+            >
+              Cloud Infrastructure
+            </span>
+          </a>
+          <a
+            href="/login"
+            style={{
+              width: "220px",
+              marginRight: "10px",
+              alignItems: "center",
+              textDecoration: "none",
+              display: "inline-flex",
+              flexDirection: "row",
+              padding: "10px",
+              backgroundColor: "transparent",
+              boxSizing: "border-box",
+              cursor: "pointer",
+            }}
+          >
+            <i class="fa fa-feed"></i>
+            <span
+              style={{
+                width: "auto",
+                overflow: "hidden",
+                whiteSpace: "nowrap",
+                textOverflow: "ellipsis",
+                color: "#333",
+                paddingLeft: "10px",
+                boxSizing: "border-box",
+              }}
+            >
+              Big Data Infrastructure
+            </span>
+          </a>
+          <a
+            href="/login"
+            style={{
+              width: "220px",
+              marginRight: "10px",
+              alignItems: "center",
+              textDecoration: "none",
+              display: "inline-flex",
+              flexDirection: "row",
+              padding: "10px",
+              backgroundColor: "transparent",
+              boxSizing: "border-box",
+              cursor: "pointer",
+            }}
+          >
+            <i class="fa fa-feed"></i>
+            <span
+              style={{
+                width: "auto",
+                overflow: "hidden",
+                whiteSpace: "nowrap",
+                textOverflow: "ellipsis",
+                color: "#333",
+                paddingLeft: "10px",
+                boxSizing: "border-box",
+              }}
+            >
+              Virtualization
+            </span>
+          </a>
+          <a
+            href="/login"
+            style={{
+              width: "220px",
+              marginRight: "10px",
+              alignItems: "center",
+              textDecoration: "none",
+              display: "inline-flex",
+              flexDirection: "row",
+              padding: "10px",
+              backgroundColor: "transparent",
+              boxSizing: "border-box",
+              cursor: "pointer",
+            }}
+          >
+            <i class="fa fa-feed"></i>
+            <span
+              style={{
+                width: "auto",
+                overflow: "hidden",
+                whiteSpace: "nowrap",
+                textOverflow: "ellipsis",
+                color: "#333",
+                paddingLeft: "10px",
+                boxSizing: "border-box",
+              }}
+            >
+              Docker Ecosystem
+            </span>
+          </a>
+          <a
+            href="/login"
+            style={{
+              width: "220px",
+              marginRight: "10px",
+              alignItems: "center",
+              textDecoration: "none",
+              display: "inline-flex",
+              flexDirection: "row",
+              padding: "10px",
+              backgroundColor: "transparent",
+              boxSizing: "border-box",
+              cursor: "pointer",
+            }}
+          >
+            <i class="fa fa-feed"></i>
+            <span
+              style={{
+                width: "auto",
+                overflow: "hidden",
+                whiteSpace: "nowrap",
+                textOverflow: "ellipsis",
+                color: "#333",
+                paddingLeft: "10px",
+                boxSizing: "border-box",
+              }}
+            >
+              API Management
+            </span>
+          </a>
+          <a
+            href="/login"
+            style={{
+              width: "220px",
+              marginRight: "10px",
+              alignItems: "center",
+              textDecoration: "none",
+              display: "inline-flex",
+              flexDirection: "row",
+              padding: "10px",
+              backgroundColor: "transparent",
+              boxSizing: "border-box",
+              cursor: "pointer",
+            }}
+          >
+            <i class="fa fa-feed"></i>
+            <span
+              style={{
+                width: "auto",
+                overflow: "hidden",
+                whiteSpace: "nowrap",
+                textOverflow: "ellipsis",
+                color: "#333",
+                paddingLeft: "10px",
+                boxSizing: "border-box",
+              }}
+            >
+              Application Development Tools
+            </span>
+          </a>
+          <a
+            href="/login"
+            style={{
+              width: "220px",
+              marginRight: "10px",
+              alignItems: "center",
+              textDecoration: "none",
+              display: "inline-flex",
+              flexDirection: "row",
+              padding: "10px",
+              backgroundColor: "transparent",
+              boxSizing: "border-box",
+              cursor: "pointer",
+            }}
+          >
+            <i class="fa fa-feed"></i>
+            <span
+              style={{
+                width: "auto",
+                overflow: "hidden",
+                whiteSpace: "nowrap",
+                textOverflow: "ellipsis",
+                color: "#333",
+                paddingLeft: "10px",
+                boxSizing: "border-box",
+              }}
+            >
+              Software Testing Tools
+            </span>
+          </a>
+          <a
+            href="/login"
+            style={{
+              width: "220px",
+              marginRight: "10px",
+              alignItems: "center",
+              textDecoration: "none",
+              display: "inline-flex",
+              flexDirection: "row",
+              padding: "10px",
+              backgroundColor: "transparent",
+              boxSizing: "border-box",
+              cursor: "pointer",
+            }}
+          >
+            <i class="fa fa-feed"></i>
+            <span
+              style={{
+                width: "auto",
+                overflow: "hidden",
+                whiteSpace: "nowrap",
+                textOverflow: "ellipsis",
+                color: "#333",
+                paddingLeft: "10px",
+                boxSizing: "border-box",
+              }}
+            >
+              PaaS
+            </span>
+          </a>
+          <a
+            href="/login"
+            style={{
+              width: "220px",
+              marginRight: "10px",
+              alignItems: "center",
+              textDecoration: "none",
+              display: "inline-flex",
+              flexDirection: "row",
+              padding: "10px",
+              backgroundColor: "transparent",
+              boxSizing: "border-box",
+              cursor: "pointer",
+            }}
+          >
+            <i class="fa fa-feed"></i>
+            <span
+              style={{
+                width: "auto",
+                overflow: "hidden",
+                whiteSpace: "nowrap",
+                textOverflow: "ellipsis",
+                color: "#333",
+                paddingLeft: "10px",
+                boxSizing: "border-box",
+              }}
+            >
+              DevOps
+            </span>
+          </a>
+          <a
+            href="/login"
+            style={{
+              width: "220px",
+              marginRight: "10px",
+              alignItems: "center",
+              textDecoration: "none",
+              display: "inline-flex",
+              flexDirection: "row",
+              padding: "10px",
+              backgroundColor: "transparent",
+              boxSizing: "border-box",
+              cursor: "pointer",
+            }}
+          >
+            <i class="fa fa-feed"></i>
+            <span
+              style={{
+                width: "auto",
+                overflow: "hidden",
+                whiteSpace: "nowrap",
+                textOverflow: "ellipsis",
+                color: "#333",
+                paddingLeft: "10px",
+                boxSizing: "border-box",
+              }}
+            >
+              Open Source
+            </span>
+          </a>
+          <a
+            href="/login"
+            style={{
+              width: "220px",
+              marginRight: "10px",
+              alignItems: "center",
+              textDecoration: "none",
+              display: "inline-flex",
+              flexDirection: "row",
+              padding: "10px",
+              backgroundColor: "transparent",
+              boxSizing: "border-box",
+              cursor: "pointer",
+            }}
+          >
+            <i class="fa fa-feed"></i>
+            <span
+              style={{
+                width: "auto",
+                overflow: "hidden",
+                whiteSpace: "nowrap",
+                textOverflow: "ellipsis",
+                color: "#333",
+                paddingLeft: "10px",
+                boxSizing: "border-box",
+              }}
+            >
+              Database Technology
+            </span>
+          </a>
+          <a
+            href="/login"
+            style={{
+              width: "220px",
+              marginRight: "10px",
+              alignItems: "center",
+              textDecoration: "none",
+              display: "inline-flex",
+              flexDirection: "row",
+              padding: "10px",
+              backgroundColor: "transparent",
+              boxSizing: "border-box",
+              cursor: "pointer",
+            }}
+          >
+            <i class="fa fa-feed"></i>
+            <span
+              style={{
+                width: "auto",
+                overflow: "hidden",
+                whiteSpace: "nowrap",
+                textOverflow: "ellipsis",
+                color: "#333",
+                paddingLeft: "10px",
+                boxSizing: "border-box",
+              }}
+            >
+              Enterprise Mobility
+            </span>
+          </a>
+        </div>
+        <span>
+          
+        </span>
       </div>
     </>
   );
