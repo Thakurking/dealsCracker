@@ -3396,7 +3396,7 @@ export default function body() {
         {/* </Container> */}
       </div>
       <div
-      className="complimentry offerings"
+        className="complimentry offerings"
         style={{
           marginTop: "40px",
           position: "relative",

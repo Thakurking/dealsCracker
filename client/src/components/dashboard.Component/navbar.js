@@ -20,15 +20,15 @@ export default function Dashboard() {
         }}
       >
         <Navbar.Brand href="#">
-          <img
-            id="logo_tracxn"
-            src="https://cdn.tracxn.com/images/static/tracxn-logo-full-100x22.svg"
-            class="img-responsive"
-            alt="Tracxn.com"
-            width="100"
-            height="22"
-            style={{ aspectRatio: "100/2" }}
-          />
+          <div
+            style={{
+              WebkitBorderRadius: "50px 50px",
+              borderRadius: "50px/50px",
+              border: "solid 30px grey",
+              width: "60px",
+              height: "60px",
+            }}
+          ></div>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
