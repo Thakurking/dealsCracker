@@ -1496,6 +1496,26 @@ export default function body() {
             </div>
           </div>
         </div>
+        <h4
+          style={{
+            fontSize: "14px",
+            textAlign: "center",
+            color: "#999",
+            marginBottom: "25px",
+            marginTop: "10px",
+            fontFamily: "inherit",
+            fontWeight: "500",
+            lineHeight: "1.1",
+            boxSizing: "border-box",
+            display: "block",
+            marginBlockStart: "1.33em",
+            marginBlockEnd: "1.33em",
+            marginInlineStart: "0px",
+            marginInlineEnd: "0px",
+          }}
+        >
+          EXPLORE FEEDS
+        </h4>
         <div
           style={{
             flexWrap: "wrap",
@@ -2587,9 +2607,7 @@ export default function body() {
             </span>
           </a>
         </div>
-        <span>
-          
-        </span>
+        <span></span>
       </div>
     </>
   );
