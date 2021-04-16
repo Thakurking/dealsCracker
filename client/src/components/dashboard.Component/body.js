@@ -3407,8 +3407,823 @@ export default function body() {
           fontSize: "14px",
         }}
       >
-        <span></span>
+        <span
+          style={{
+            zIndex: "3",
+            fontSize: "28px",
+            margin: "0",
+            maxWidth: "580px",
+            position: "relative",
+            display: "inline-block",
+            background: "#fff",
+            color: "#404040",
+            paddingLeft: "20px",
+            paddingRight: "20px",
+            boxSizing: "border-box",
+            textAlign: "center",
+          }}
+        >
+          Complimentary Offerings
+        </span>
       </div>
+      <p
+        style={{
+          marginBottom: "25px",
+          textAlign: "center",
+          color: "#555",
+          marginTop: "7px",
+          paddingLeft: "10px",
+          paddingRight: "10px",
+          margin: "0 0 10px",
+          boxSizing: "border-box",
+        }}
+      >
+        Free to use Tracxn Modules! Explore Now!
+      </p>
+      {/* <div
+        className="complementry offerings crousel"
+        style={{
+          boxSizing: "border-box",
+          display: "block",
+          color: "#293348",
+          lineHeight: "1.42857143",
+        }}
+      >
+        <div
+          style={{
+            paddingLeft: "25px",
+            paddingRight: "25px",
+            boxSizing: "border-box",
+            display: "block",
+            color: "#293348",
+          }}
+        >
+          <div
+            style={{
+              margin: "20px auto",
+              position: "relative",
+              display: "block",
+              boxSizing: "border-box",
+              userSelect: "none",
+              touchAction: "pan-y",
+            }}
+          >
+            <Button
+              className="complimentry offerings button"
+              style={{
+                display: "block",
+                height: "195px",
+                left: "-25px",
+                marginRight: "10px",
+                color: "transparent",
+                background: "transparent",
+                top: "0",
+                lineHeight: "0",
+                position: "absolute",
+                width: "25px",
+                padding: "0",
+                cursor: "pointer",
+                border: "none",
+                WebkitAppearance: "button",
+                textTransform: "none",
+                overflow: "visible",
+                fontFamily: "inherit",
+                margin: "0",
+                boxSizing: "border-box",
+                outline: "none",
+              }}
+            >Previous</Button>
+            <div style={{}}>
+
+            </div>
+          </div>
+        </div>
+      </div> */}
+      <div
+        style={{
+          marginBottom: "25px",
+          marginTop: "40px",
+          position: "relative",
+          textAlign: "center",
+          color: "#555",
+          boxSizing: "border-box",
+          display: "block",
+        }}
+      >
+        <span
+          style={{
+            zIndex: "3",
+            fontSize: "28px",
+            margin: "0",
+            maxWidth: "580px",
+            position: "relative",
+            display: "inline-block",
+            background: "#fff",
+            color: "#404040",
+            paddingLeft: "20px",
+            paddingRight: "20px",
+            boxSizing: "border-box",
+            textAlign: "center",
+          }}
+        >
+          Latest News And Recognitions
+        </span>
+      </div>
+      <Container>
+        <div style={{ display: "flex", boxSizing: "border-box" }}>
+          <div
+            style={{
+              width: "600px",
+              padding: "0 10px",
+              boxSizing: "border-box",
+              display: "block",
+            }}
+          >
+            <a
+              style={{
+                textDecoration: "none",
+                display: "flex",
+                flexDirection: "row",
+                marginBottom: "15px",
+                backgroundColor: "transparent",
+                color: "#337ab7",
+                boxSizing: "border-box",
+                cursor: "pointer",
+              }}
+              href="/"
+            >
+              <img
+                src="https://i.tracxn.com/logo/company/15317985_1341545315897431_9048397393534379503_n.png1497963688325?format=webp&height=60&width=60"
+                alt="demo"
+                loading="lazy"
+                width="60"
+                height="60"
+                style={{
+                  maxHeight: "60px",
+                  objectFit: "contain",
+                  borderRadius: "2px",
+                  borderColor: "#e6e6e6",
+                  border: "1px solid #bdbdbd",
+                  padding: "5px",
+                  verticalAlign: "middle",
+                  boxSizing: "border-box",
+                  aspectRatio: "auto 60 / 60",
+                }}
+              />
+              <div
+                style={{
+                  marginBottom: "15px",
+                  marginLeft: "10px",
+                  boxSizing: "border-box",
+                  display: "block",
+                  color: "#337ab7",
+                  cursor: "pointer",
+                }}
+              >
+                <p
+                  style={{
+                    fontSize: "13px",
+                    color: "#333",
+                    marginBottom: "5px",
+                    margin: "0 0 10px",
+                    boxSizing: "border-box",
+                    display: "block",
+                  }}
+                >
+                  Startups end FY21 on a high note as fund flows top in Q4 - The
+                  Economic Times
+                </p>
+                <p
+                  style={{
+                    fontStyle: "13px",
+                    alignItems: "center",
+                    display: "flex",
+                    flexDirection: "row",
+                    color: "#777",
+                    margin: "0",
+                  }}
+                >
+                  <span style={{ fontSize: "13px" }}>Indiatimes</span>
+                  <span
+                    style={{
+                      height: "4px",
+                      width: "4px",
+                      display: "inline-block",
+                      borderRadius: "50%",
+                      background: "#999",
+                      marginLeft: "10px",
+                      marginRight: "10px",
+                      boxSizing: "border-box",
+                      fontSize: "13px",
+                    }}
+                  ></span>
+                  <span style={{ fontSize: "13px" }}>News</span>
+                </p>
+              </div>
+            </a>
+            <a
+              style={{
+                textDecoration: "none",
+                display: "flex",
+                flexDirection: "row",
+                marginBottom: "15px",
+                backgroundColor: "transparent",
+                color: "#337ab7",
+                boxSizing: "border-box",
+                cursor: "pointer",
+              }}
+              href="/"
+            >
+              <img
+                src="https://i.tracxn.com/logo/company/15317985_1341545315897431_9048397393534379503_n.png1497963688325?format=webp&height=60&width=60"
+                alt="demo"
+                loading="lazy"
+                width="60"
+                height="60"
+                style={{
+                  maxHeight: "60px",
+                  objectFit: "contain",
+                  borderRadius: "2px",
+                  borderColor: "#e6e6e6",
+                  border: "1px solid #bdbdbd",
+                  padding: "5px",
+                  verticalAlign: "middle",
+                  boxSizing: "border-box",
+                  aspectRatio: "auto 60 / 60",
+                }}
+              />
+              <div
+                style={{
+                  marginBottom: "15px",
+                  marginLeft: "10px",
+                  boxSizing: "border-box",
+                  display: "block",
+                  color: "#337ab7",
+                  cursor: "pointer",
+                }}
+              >
+                <p
+                  style={{
+                    fontSize: "13px",
+                    color: "#333",
+                    marginBottom: "5px",
+                    margin: "0 0 10px",
+                    boxSizing: "border-box",
+                    display: "block",
+                  }}
+                >
+                  Startups end FY21 on a high note as fund flows top in Q4 - The
+                  Economic Times
+                </p>
+                <p
+                  style={{
+                    fontStyle: "13px",
+                    alignItems: "center",
+                    display: "flex",
+                    flexDirection: "row",
+                    color: "#777",
+                    margin: "0",
+                  }}
+                >
+                  <span style={{ fontSize: "13px" }}>Indiatimes</span>
+                  <span
+                    style={{
+                      height: "4px",
+                      width: "4px",
+                      display: "inline-block",
+                      borderRadius: "50%",
+                      background: "#999",
+                      marginLeft: "10px",
+                      marginRight: "10px",
+                      boxSizing: "border-box",
+                      fontSize: "13px",
+                    }}
+                  ></span>
+                  <span style={{ fontSize: "13px" }}>News</span>
+                </p>
+              </div>
+            </a>
+            <a
+              style={{
+                textDecoration: "none",
+                display: "flex",
+                flexDirection: "row",
+                marginBottom: "15px",
+                backgroundColor: "transparent",
+                color: "#337ab7",
+                boxSizing: "border-box",
+                cursor: "pointer",
+              }}
+              href="/"
+            >
+              <img
+                src="https://i.tracxn.com/logo/company/15317985_1341545315897431_9048397393534379503_n.png1497963688325?format=webp&height=60&width=60"
+                alt="demo"
+                loading="lazy"
+                width="60"
+                height="60"
+                style={{
+                  maxHeight: "60px",
+                  objectFit: "contain",
+                  borderRadius: "2px",
+                  borderColor: "#e6e6e6",
+                  border: "1px solid #bdbdbd",
+                  padding: "5px",
+                  verticalAlign: "middle",
+                  boxSizing: "border-box",
+                  aspectRatio: "auto 60 / 60",
+                }}
+              />
+              <div
+                style={{
+                  marginBottom: "15px",
+                  marginLeft: "10px",
+                  boxSizing: "border-box",
+                  display: "block",
+                  color: "#337ab7",
+                  cursor: "pointer",
+                }}
+              >
+                <p
+                  style={{
+                    fontSize: "13px",
+                    color: "#333",
+                    marginBottom: "5px",
+                    margin: "0 0 10px",
+                    boxSizing: "border-box",
+                    display: "block",
+                  }}
+                >
+                  Startups end FY21 on a high note as fund flows top in Q4 - The
+                  Economic Times
+                </p>
+                <p
+                  style={{
+                    fontStyle: "13px",
+                    alignItems: "center",
+                    display: "flex",
+                    flexDirection: "row",
+                    color: "#777",
+                    margin: "0",
+                  }}
+                >
+                  <span style={{ fontSize: "13px" }}>Indiatimes</span>
+                  <span
+                    style={{
+                      height: "4px",
+                      width: "4px",
+                      display: "inline-block",
+                      borderRadius: "50%",
+                      background: "#999",
+                      marginLeft: "10px",
+                      marginRight: "10px",
+                      boxSizing: "border-box",
+                      fontSize: "13px",
+                    }}
+                  ></span>
+                  <span style={{ fontSize: "13px" }}>News</span>
+                </p>
+              </div>
+            </a>
+            <a
+              style={{
+                textDecoration: "none",
+                display: "flex",
+                flexDirection: "row",
+                marginBottom: "15px",
+                backgroundColor: "transparent",
+                color: "#337ab7",
+                boxSizing: "border-box",
+                cursor: "pointer",
+              }}
+              href="/"
+            >
+              <img
+                src="https://i.tracxn.com/logo/company/15317985_1341545315897431_9048397393534379503_n.png1497963688325?format=webp&height=60&width=60"
+                alt="demo"
+                loading="lazy"
+                width="60"
+                height="60"
+                style={{
+                  maxHeight: "60px",
+                  objectFit: "contain",
+                  borderRadius: "2px",
+                  borderColor: "#e6e6e6",
+                  border: "1px solid #bdbdbd",
+                  padding: "5px",
+                  verticalAlign: "middle",
+                  boxSizing: "border-box",
+                  aspectRatio: "auto 60 / 60",
+                }}
+              />
+              <div
+                style={{
+                  marginBottom: "15px",
+                  marginLeft: "10px",
+                  boxSizing: "border-box",
+                  display: "block",
+                  color: "#337ab7",
+                  cursor: "pointer",
+                }}
+              >
+                <p
+                  style={{
+                    fontSize: "13px",
+                    color: "#333",
+                    marginBottom: "5px",
+                    margin: "0 0 10px",
+                    boxSizing: "border-box",
+                    display: "block",
+                  }}
+                >
+                  Startups end FY21 on a high note as fund flows top in Q4 - The
+                  Economic Times
+                </p>
+                <p
+                  style={{
+                    fontStyle: "13px",
+                    alignItems: "center",
+                    display: "flex",
+                    flexDirection: "row",
+                    color: "#777",
+                    margin: "0",
+                  }}
+                >
+                  <span style={{ fontSize: "13px" }}>Indiatimes</span>
+                  <span
+                    style={{
+                      height: "4px",
+                      width: "4px",
+                      display: "inline-block",
+                      borderRadius: "50%",
+                      background: "#999",
+                      marginLeft: "10px",
+                      marginRight: "10px",
+                      boxSizing: "border-box",
+                      fontSize: "13px",
+                    }}
+                  ></span>
+                  <span style={{ fontSize: "13px" }}>News</span>
+                </p>
+              </div>
+            </a>
+          </div>
+          <div
+            style={{
+              width: "380px",
+              padding: "0 10px",
+              borderLeft: "1px solid #e0e0e0",
+              margin: "auto",
+              boxSizing: "border-box",
+              display: "block",
+            }}
+          >
+            <a
+              style={{
+                textDecoration: "none",
+                display: "flex",
+                flexDirection: "row",
+                marginBottom: "15px",
+                backgroundColor: "transparent",
+                color: "#337ab7",
+                boxSizing: "border-box",
+                cursor: "pointer",
+              }}
+              href="/"
+            >
+              <img
+                src="https://i.tracxn.com/logo/company/15317985_1341545315897431_9048397393534379503_n.png1497963688325?format=webp&height=60&width=60"
+                alt="demo"
+                loading="lazy"
+                width="60"
+                height="60"
+                style={{
+                  maxHeight: "60px",
+                  objectFit: "contain",
+                  borderRadius: "2px",
+                  borderColor: "#e6e6e6",
+                  border: "1px solid #bdbdbd",
+                  padding: "5px",
+                  verticalAlign: "middle",
+                  boxSizing: "border-box",
+                  aspectRatio: "auto 60 / 60",
+                }}
+              />
+              <div
+                style={{
+                  marginBottom: "15px",
+                  marginLeft: "10px",
+                  boxSizing: "border-box",
+                  display: "block",
+                  color: "#337ab7",
+                  cursor: "pointer",
+                }}
+              >
+                <p
+                  style={{
+                    fontSize: "13px",
+                    color: "#333",
+                    marginBottom: "5px",
+                    margin: "0 0 10px",
+                    boxSizing: "border-box",
+                    display: "block",
+                  }}
+                >
+                  Startups end FY21 on a high note as fund flows top in Q4 - The
+                  Economic Times
+                </p>
+                <p
+                  style={{
+                    fontStyle: "13px",
+                    alignItems: "center",
+                    display: "flex",
+                    flexDirection: "row",
+                    color: "#777",
+                    margin: "0",
+                  }}
+                >
+                  <span style={{ fontSize: "13px" }}>Indiatimes</span>
+                  <span
+                    style={{
+                      height: "4px",
+                      width: "4px",
+                      display: "inline-block",
+                      borderRadius: "50%",
+                      background: "#999",
+                      marginLeft: "10px",
+                      marginRight: "10px",
+                      boxSizing: "border-box",
+                      fontSize: "13px",
+                    }}
+                  ></span>
+                  <span style={{ fontSize: "13px" }}>News</span>
+                </p>
+              </div>
+            </a>
+            <a
+              style={{
+                textDecoration: "none",
+                display: "flex",
+                flexDirection: "row",
+                marginBottom: "15px",
+                backgroundColor: "transparent",
+                color: "#337ab7",
+                boxSizing: "border-box",
+                cursor: "pointer",
+              }}
+              href="/"
+            >
+              <img
+                src="https://i.tracxn.com/logo/company/15317985_1341545315897431_9048397393534379503_n.png1497963688325?format=webp&height=60&width=60"
+                alt="demo"
+                loading="lazy"
+                width="60"
+                height="60"
+                style={{
+                  maxHeight: "60px",
+                  objectFit: "contain",
+                  borderRadius: "2px",
+                  borderColor: "#e6e6e6",
+                  border: "1px solid #bdbdbd",
+                  padding: "5px",
+                  verticalAlign: "middle",
+                  boxSizing: "border-box",
+                  aspectRatio: "auto 60 / 60",
+                }}
+              />
+              <div
+                style={{
+                  marginBottom: "15px",
+                  marginLeft: "10px",
+                  boxSizing: "border-box",
+                  display: "block",
+                  color: "#337ab7",
+                  cursor: "pointer",
+                }}
+              >
+                <p
+                  style={{
+                    fontSize: "13px",
+                    color: "#333",
+                    marginBottom: "5px",
+                    margin: "0 0 10px",
+                    boxSizing: "border-box",
+                    display: "block",
+                  }}
+                >
+                  Startups end FY21 on a high note as fund flows top in Q4 - The
+                  Economic Times
+                </p>
+                <p
+                  style={{
+                    fontStyle: "13px",
+                    alignItems: "center",
+                    display: "flex",
+                    flexDirection: "row",
+                    color: "#777",
+                    margin: "0",
+                  }}
+                >
+                  <span style={{ fontSize: "13px" }}>Indiatimes</span>
+                  <span
+                    style={{
+                      height: "4px",
+                      width: "4px",
+                      display: "inline-block",
+                      borderRadius: "50%",
+                      background: "#999",
+                      marginLeft: "10px",
+                      marginRight: "10px",
+                      boxSizing: "border-box",
+                      fontSize: "13px",
+                    }}
+                  ></span>
+                  <span style={{ fontSize: "13px" }}>News</span>
+                </p>
+              </div>
+            </a>
+            <a
+              style={{
+                textDecoration: "none",
+                display: "flex",
+                flexDirection: "row",
+                marginBottom: "15px",
+                backgroundColor: "transparent",
+                color: "#337ab7",
+                boxSizing: "border-box",
+                cursor: "pointer",
+              }}
+              href="/"
+            >
+              <img
+                src="https://i.tracxn.com/logo/company/15317985_1341545315897431_9048397393534379503_n.png1497963688325?format=webp&height=60&width=60"
+                alt="demo"
+                loading="lazy"
+                width="60"
+                height="60"
+                style={{
+                  maxHeight: "60px",
+                  objectFit: "contain",
+                  borderRadius: "2px",
+                  borderColor: "#e6e6e6",
+                  border: "1px solid #bdbdbd",
+                  padding: "5px",
+                  verticalAlign: "middle",
+                  boxSizing: "border-box",
+                  aspectRatio: "auto 60 / 60",
+                }}
+              />
+              <div
+                style={{
+                  marginBottom: "15px",
+                  marginLeft: "10px",
+                  boxSizing: "border-box",
+                  display: "block",
+                  color: "#337ab7",
+                  cursor: "pointer",
+                }}
+              >
+                <p
+                  style={{
+                    fontSize: "13px",
+                    color: "#333",
+                    marginBottom: "5px",
+                    margin: "0 0 10px",
+                    boxSizing: "border-box",
+                    display: "block",
+                  }}
+                >
+                  Startups end FY21 on a high note as fund flows top in Q4 - The
+                  Economic Times
+                </p>
+                <p
+                  style={{
+                    fontStyle: "13px",
+                    alignItems: "center",
+                    display: "flex",
+                    flexDirection: "row",
+                    color: "#777",
+                    margin: "0",
+                  }}
+                >
+                  <span style={{ fontSize: "13px" }}>Indiatimes</span>
+                  <span
+                    style={{
+                      height: "4px",
+                      width: "4px",
+                      display: "inline-block",
+                      borderRadius: "50%",
+                      background: "#999",
+                      marginLeft: "10px",
+                      marginRight: "10px",
+                      boxSizing: "border-box",
+                      fontSize: "13px",
+                    }}
+                  ></span>
+                  <span style={{ fontSize: "13px" }}>News</span>
+                </p>
+              </div>
+            </a>
+            <a
+              style={{
+                textDecoration: "none",
+                display: "flex",
+                flexDirection: "row",
+                marginBottom: "15px",
+                backgroundColor: "transparent",
+                color: "#337ab7",
+                boxSizing: "border-box",
+                cursor: "pointer",
+              }}
+              href="/"
+            >
+              <img
+                src="https://i.tracxn.com/logo/company/15317985_1341545315897431_9048397393534379503_n.png1497963688325?format=webp&height=60&width=60"
+                alt="demo"
+                loading="lazy"
+                width="60"
+                height="60"
+                style={{
+                  maxHeight: "60px",
+                  objectFit: "contain",
+                  borderRadius: "2px",
+                  borderColor: "#e6e6e6",
+                  border: "1px solid #bdbdbd",
+                  padding: "5px",
+                  verticalAlign: "middle",
+                  boxSizing: "border-box",
+                  aspectRatio: "auto 60 / 60",
+                }}
+              />
+              <div
+                style={{
+                  marginBottom: "15px",
+                  marginLeft: "10px",
+                  boxSizing: "border-box",
+                  display: "block",
+                  color: "#337ab7",
+                  cursor: "pointer",
+                }}
+              >
+                <p
+                  style={{
+                    fontSize: "13px",
+                    color: "#333",
+                    marginBottom: "5px",
+                    margin: "0 0 10px",
+                    boxSizing: "border-box",
+                    display: "block",
+                  }}
+                >
+                  Startups end FY21 on a high note as fund flows top in Q4 - The
+                  Economic Times
+                </p>
+                <p
+                  style={{
+                    fontStyle: "13px",
+                    alignItems: "center",
+                    display: "flex",
+                    flexDirection: "row",
+                    color: "#777",
+                    margin: "0",
+                  }}
+                >
+                  <span style={{ fontSize: "13px" }}>Indiatimes</span>
+                  <span
+                    style={{
+                      height: "4px",
+                      width: "4px",
+                      display: "inline-block",
+                      borderRadius: "50%",
+                      background: "#999",
+                      marginLeft: "10px",
+                      marginRight: "10px",
+                      boxSizing: "border-box",
+                      fontSize: "13px",
+                    }}
+                  ></span>
+                  <span style={{ fontSize: "13px" }}>News</span>
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <span
+          style={{
+            fontSize: "14px",
+            cursor: "pointer",
+            textTransform: "uppercase",
+            textAlign: "center",
+            display: "block",
+            color: "#337ab7",
+            marginTop: "20px",
+            textDecoration: "underline",
+            boxSizing: "border-box",
+          }}
+        >
+          Visit Our NewsRoom
+        </span>
+      </Container>
     </>
   );
 }
