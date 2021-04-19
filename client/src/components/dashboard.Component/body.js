@@ -4223,6 +4223,317 @@ export default function body() {
         >
           Visit Our NewsRoom
         </span>
+        <div
+          className="Our Coustomers"
+          style={{
+            marginTop: "40px",
+            position: "relative",
+            textAlign: "center",
+            color: "#555",
+            boxSizing: "border-box",
+            display: "block",
+          }}
+        >
+          <span
+            style={{
+              zIndex: "3",
+              fontSize: "28px",
+              margin: "0",
+              maxWidth: "580px",
+              position: "relative",
+              display: "inline-block",
+              background: "#fff",
+              color: "#404040",
+              paddingLeft: "20px",
+              paddingRight: "20px",
+              boxSizing: "border-box",
+              textAlign: "center",
+            }}
+          >
+            Our Customers
+          </span>
+        </div>
+        <p
+          style={{
+            marginBottom: "25px",
+            textAlign: "center",
+            color: "#555",
+            marginTop: "7px",
+            paddingLeft: "10px",
+            paddingRight: "10px",
+            margin: "0 0 10px",
+            boxSizing: "border-box",
+            display: "block",
+            marginBlockStart: "1em",
+            marginBlockEnd: "1em",
+            marginInlineStart: "0px",
+            marginInlineEnd: "0px",
+          }}
+        >
+          More than 1000 Corporates and Investors use Tracxn to take smarter
+          decisions
+        </p>
+        <div
+          className="Our Cstomers Items"
+          style={{
+            flexWrap: "wrap",
+            justifyContent: "space-around",
+            display: "flex",
+            flexDirection: "row",
+            boxSizing: "border-box",
+          }}
+        >
+          <div
+            style={{
+              backgroundImage: `url("https://i.tracxn.com/tracxn-trustedby-logos/c2eac795672f2f3e9488f0412dc0cdb3_92e8864f-57bc-4f23-814f-0b12a71b5e82?format=webp&height=45&width=110")`,
+              width: "110px",
+              margin: "15px 40px",
+              height: "45px",
+              boxSizing: "border-box",
+              display: "block",
+            }}
+          ></div>
+          <div
+            style={{
+              backgroundImage: `url("https://i.tracxn.com/tracxn-trustedby-logos/Social_Capital_21aedd4f-7118-4079-a071-3b754ca2208a.png?format=webp&height=45&width=110")`,
+              width: "45px",
+              margin: "15px 40px",
+              height: "45px",
+              boxSizing: "border-box",
+              display: "block",
+            }}
+          ></div>
+          <div
+            style={{
+              backgroundImage: `url("https://i.tracxn.com/tracxn-trustedby-logos/1554352519735_511e2e99-c60f-475a-b7aa-4e48513f90f3.png?format=webp&height=45&width=110")`,
+              width: "65px",
+              margin: "15px 40px",
+              height: "45px",
+              boxSizing: "border-box",
+              display: "block",
+            }}
+          ></div>
+          <div
+            style={{
+              backgroundImage: `url("https://i.tracxn.com/tracxn-trustedby-logos/1554353981187_21c6cb80-f655-4a7a-b106-c296409a12bd.png?format=webp&height=45&width=110")`,
+              width: "110px",
+              margin: "15px 40px",
+              height: "20px",
+              boxSizing: "border-box",
+              display: "block",
+            }}
+          ></div>
+          <div
+            style={{
+              backgroundImage: `url("https://i.tracxn.com/tracxn-trustedby-logos/1554354159098_16d25f40-2e39-4ec6-b5d1-c0b1a8b0942c.png?format=webp&height=45&width=110")`,
+              width: "110px",
+              margin: "15px 40px",
+              height: "15px",
+              boxSizing: "border-box",
+              display: "block",
+            }}
+          ></div>
+          <div
+            style={{
+              backgroundImage: `url("https://i.tracxn.com/tracxn-trustedby-logos/steadview_owler_20190703_185204_original_e3616a18-d65c-45b4-b086-66e73da1307d.png?format=webp&height=45&width=110")`,
+              width: "110px",
+              margin: "15px 40px",
+              height: "30px",
+              boxSizing: "border-box",
+              display: "block",
+            }}
+          ></div>
+          <div
+            style={{
+              backgroundImage: `url("https://i.tracxn.com/tracxn-trustedby-logos/GGV_9ad48847-cf3d-473e-888f-cf00674f6a3b.png?format=webp&height=45&width=110")`,
+              width: "45px",
+              margin: "15px 40px",
+              height: "40px",
+              boxSizing: "border-box",
+              display: "block",
+            }}
+          ></div>
+          <div
+            style={{
+              backgroundImage: `url("https://i.tracxn.com/tracxn-trustedby-logos/1554354599539_a17b5c1b-aa64-4fab-bb9c-f952e389d38e.png?format=webp&height=45&width=110")`,
+              width: "110px",
+              margin: "15px 40px",
+              height: "40px",
+              boxSizing: "border-box",
+              display: "block",
+            }}
+          ></div>
+          <div
+            style={{
+              backgroundImage: `url("https://i.tracxn.com/tracxn-trustedby-logos/1554354720706_c085a8d3-f6f2-4705-9d48-7057521b9276.png?format=webp&height=45&width=110")`,
+              width: "68px",
+              margin: "15px 40px",
+              height: "40px",
+              boxSizing: "border-box",
+              display: "block",
+            }}
+          ></div>
+          <div
+            style={{
+              backgroundImage: `url("https://i.tracxn.com/tracxn-trustedby-logos/Bytedance_64f6a0eb-424b-43fc-9c32-d99671bd83d9.png?format=webp&height=45&width=110")`,
+              width: "45px",
+              margin: "15px 40px",
+              height: "40px",
+              boxSizing: "border-box",
+              display: "block",
+            }}
+          ></div>
+          <div
+            style={{
+              backgroundImage: `url("https://i.tracxn.com/tracxn-trustedby-logos/ING_9e567d20-b12c-4303-a0b6-ce25bbbd14fa.png?format=webp&height=45&width=110")`,
+              width: "45px",
+              margin: "15px 40px",
+              height: "40px",
+              boxSizing: "border-box",
+              display: "block",
+            }}
+          ></div>
+          <div
+            style={{
+              backgroundImage: `url("https://i.tracxn.com/tracxn-trustedby-logos/Google_930d6db0-7fdc-434d-91fd-18da0c1d5de8.jpeg?format=webp&height=45&width=110")`,
+              width: "45px",
+              margin: "15px 40px",
+              height: "40px",
+              boxSizing: "border-box",
+              display: "block",
+            }}
+          ></div>
+          <div
+            style={{
+              backgroundImage: `url("https://i.tracxn.com/tracxn-trustedby-logos/1577075336294_4778760a-75dc-44f1-8c87-54a62c55997f.png?format=webp&height=45&width=110")`,
+              width: "80px",
+              margin: "15px 40px",
+              height: "40px",
+              boxSizing: "border-box",
+              display: "block",
+            }}
+          ></div>
+          <div
+            style={{
+              backgroundImage: `url("https://i.tracxn.com/tracxn-trustedby-logos/Chiratae_Ventures_4123ad75-736c-4458-9c6e-c7feed6cec19.png?format=webp&height=45&width=110")`,
+              width: "45px",
+              margin: "15px 40px",
+              height: "40px",
+              boxSizing: "border-box",
+              display: "block",
+            }}
+          ></div>
+          <div
+            style={{
+              backgroundImage: `url("https://i.tracxn.com/tracxn-trustedby-logos/ICICI_Bank_d0dc58e0-5ab0-4437-b5ed-dc9b4e535d51.jpeg?format=webp&height=45&width=110")`,
+              width: "45px",
+              margin: "15px 40px",
+              height: "45px",
+              boxSizing: "border-box",
+              display: "block",
+            }}
+          ></div>
+          <div
+            style={{
+              backgroundImage: `url("https://i.tracxn.com/tracxn-trustedby-logos/MAS_c676419e-fedf-4150-9589-50d7f26d0400.png?format=webp&height=45&width=110")`,
+              width: "45px",
+              margin: "15px 40px",
+              height: "45px",
+              boxSizing: "border-box",
+              display: "block",
+            }}
+          ></div>
+          <div
+            style={{
+              backgroundImage: `url("https://i.tracxn.com/tracxn-trustedby-logos/Truffle_Capital_2d4cde20-bbf4-4184-b1ca-87ef66ff52c3.png?format=webp&height=45&width=110")`,
+              width: "45px",
+              margin: "15px 40px",
+              height: "45px",
+              boxSizing: "border-box",
+              display: "block",
+            }}
+          ></div>
+          <div
+            style={{
+              backgroundImage: `url("https://i.tracxn.com/tracxn-trustedby-logos/Medtronic_26aced77-6dc1-413d-b76d-c05986e514e9.png?format=webp&height=45&width=110")`,
+              width: "45px",
+              margin: "15px 40px",
+              height: "45px",
+              boxSizing: "border-box",
+              display: "block",
+            }}
+          ></div>
+          <div
+            style={{
+              backgroundImage: `url("https://i.tracxn.com/tracxn-trustedby-logos/Naspers_6a89bc5c-ffc8-4cd9-a1ce-31c1624015d0.jpeg?format=webp&height=45&width=110")`,
+              width: "45px",
+              margin: "15px 40px",
+              height: "45px",
+              boxSizing: "border-box",
+              display: "block",
+            }}
+          ></div>
+          <div
+            style={{
+              backgroundImage: `url("https://i.tracxn.com/tracxn-trustedby-logos/Bocconi_University_0a3bd2bf-c2d7-4ba2-bede-78455ac35287.png?format=webp&height=45&width=110")`,
+              width: "45px",
+              margin: "15px 40px",
+              height: "45px",
+              boxSizing: "border-box",
+              display: "block",
+            }}
+          ></div>
+          <div
+            style={{
+              backgroundImage: `url("https://i.tracxn.com/tracxn-trustedby-logos/1584341534249_6ad4fa58-5800-4974-a320-c771192d0d4a.png?format=webp&height=45&width=110")`,
+              width: "45px",
+              margin: "15px 40px",
+              height: "45px",
+              boxSizing: "border-box",
+              display: "block",
+            }}
+          ></div>
+          <div
+            style={{
+              backgroundImage: `url("https://i.tracxn.com/tracxn-trustedby-logos/Microsoft_33198ed5-cf15-440b-a964-7dc652a2d089.png?format=webp&height=45&width=110")`,
+              width: "45px",
+              margin: "15px 40px",
+              height: "45px",
+              boxSizing: "border-box",
+              display: "block",
+            }}
+          ></div>
+          <div
+            style={{
+              backgroundImage: `url("https://i.tracxn.com/tracxn-trustedby-logos/Qualcomm_056fc862-c8a1-46cf-bf8a-1bd1fd3d9c59.png?format=webp&height=45&width=110")`,
+              width: "45px",
+              margin: "15px 40px",
+              height: "45px",
+              boxSizing: "border-box",
+              display: "block",
+            }}
+          ></div>
+          <div
+            style={{
+              backgroundImage: `url("https://i.tracxn.com/tracxn-trustedby-logos/Sistema_a6120928-8619-43b1-8520-3bf7e3623936.png?format=webp&height=45&width=110")`,
+              width: "45px",
+              margin: "15px 40px",
+              height: "45px",
+              boxSizing: "border-box",
+              display: "block",
+            }}
+          ></div>
+          <div
+            style={{
+              backgroundImage: `url("https://i.tracxn.com/tracxn-trustedby-logos/Deutsche_Telekom_dff0b445-754d-41a7-9590-d8f017141719.png?format=webp&height=45&width=110")`,
+              width: "45px",
+              margin: "15px 40px",
+              height: "45px",
+              boxSizing: "border-box",
+              display: "block",
+            }}
+          ></div>
+        </div>
       </Container>
     </>
   );
