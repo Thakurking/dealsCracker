@@ -4535,6 +4535,1762 @@ export default function body() {
           ></div>
         </div>
       </Container>
+      <footer
+        style={{
+          background: "#293348",
+          color: "#fff",
+          paddingLeft: "25px",
+          paddingRight: "25px",
+          paddingTop: "10px",
+          paddingBottom: "10px",
+          boxSizing: "border-box",
+          display: "block",
+        }}
+      >
+        <div
+          className="footer first div"
+          style={{
+            width: "1280px",
+            maxWidth: "100%",
+            marginLeft: "auto",
+            marginRight: "auto",
+            background: "transparent",
+            boxShadow: "none",
+            padding: "0",
+            borderRadius: "1px",
+            boxSizing: "border-box",
+            display: "block",
+            color: "#fff",
+          }}
+        >
+          <div
+            className="footer second div"
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              boxSizing: "border-box",
+              color: "#fff",
+            }}
+          >
+            <div
+              className="footer-list-first"
+              style={{
+                flex: "1",
+                marginBottom: "10px",
+                paddingLeft: "10px",
+                paddingRight: "10px",
+                boxSizing: "border-box",
+                display: "block",
+                color: "#fff",
+              }}
+            >
+              <ul
+                style={{
+                  listStyle: "none",
+                  padding: "0",
+                  margin: "0",
+                  boxSizing: "border-box",
+                  marginBlockStart: "1em",
+                  marginBlockEnd: "1em",
+                  marginInlineStart: "0px",
+                  marginInlineEnd: "0px",
+                  paddingInlineStart: "40px",
+                  color: "#fff",
+                }}
+              >
+                <h6>Company</h6>
+                <li
+                  style={{
+                    fontSize: "13px",
+                    boxSizing: "border-box",
+                    display: "block",
+                    textAlign: "-webkit-match-parent",
+                    listStyle: "none",
+                    color: "#fff",
+                  }}
+                >
+                  <a
+                    href="/"
+                    style={{
+                      color: "#bdbdbd",
+                      transition: "all .25s ease-in",
+                      display: "inline-block",
+                      paddingTop: "5px",
+                      paddingBottom: "5px",
+                      backgroundColor: "transparent",
+                      textDecoration: "none",
+                      boxSizing: "none",
+                      cursor: "pointer",
+                      fontSize: "13px",
+                      textAlign: "-webkit-match-parent",
+                      listStyle: "none",
+                    }}
+                  >
+                    Our Investors
+                  </a>
+                </li>
+                <li
+                  style={{
+                    fontSize: "13px",
+                    boxSizing: "border-box",
+                    display: "block",
+                    textAlign: "-webkit-match-parent",
+                    listStyle: "none",
+                    color: "#fff",
+                  }}
+                >
+                  <a
+                    href="/"
+                    style={{
+                      color: "#bdbdbd",
+                      transition: "all .25s ease-in",
+                      display: "inline-block",
+                      paddingTop: "5px",
+                      paddingBottom: "5px",
+                      backgroundColor: "transparent",
+                      textDecoration: "none",
+                      boxSizing: "none",
+                      cursor: "pointer",
+                      fontSize: "13px",
+                      textAlign: "-webkit-match-parent",
+                      listStyle: "none",
+                    }}
+                  >
+                    News and Press Resources
+                  </a>
+                </li>
+                <li
+                  style={{
+                    fontSize: "13px",
+                    boxSizing: "border-box",
+                    display: "block",
+                    textAlign: "-webkit-match-parent",
+                    listStyle: "none",
+                    color: "#fff",
+                  }}
+                >
+                  <a
+                    href="/"
+                    style={{
+                      color: "#bdbdbd",
+                      transition: "all .25s ease-in",
+                      display: "inline-block",
+                      paddingTop: "5px",
+                      paddingBottom: "5px",
+                      backgroundColor: "transparent",
+                      textDecoration: "none",
+                      boxSizing: "none",
+                      cursor: "pointer",
+                      fontSize: "13px",
+                      textAlign: "-webkit-match-parent",
+                      listStyle: "none",
+                    }}
+                  >
+                    Careers
+                  </a>
+                </li>
+                <li
+                  style={{
+                    fontSize: "13px",
+                    boxSizing: "border-box",
+                    display: "block",
+                    textAlign: "-webkit-match-parent",
+                    listStyle: "none",
+                    color: "#fff",
+                  }}
+                >
+                  <a
+                    href="/"
+                    style={{
+                      color: "#bdbdbd",
+                      transition: "all .25s ease-in",
+                      display: "inline-block",
+                      paddingTop: "5px",
+                      paddingBottom: "5px",
+                      backgroundColor: "transparent",
+                      textDecoration: "none",
+                      boxSizing: "none",
+                      cursor: "pointer",
+                      fontSize: "13px",
+                      textAlign: "-webkit-match-parent",
+                      listStyle: "none",
+                    }}
+                  >
+                    Terms of Use
+                  </a>
+                </li>
+                <li
+                  style={{
+                    fontSize: "13px",
+                    boxSizing: "border-box",
+                    display: "block",
+                    textAlign: "-webkit-match-parent",
+                    listStyle: "none",
+                    color: "#fff",
+                  }}
+                >
+                  <a
+                    href="/"
+                    style={{
+                      color: "#bdbdbd",
+                      transition: "all .25s ease-in",
+                      display: "inline-block",
+                      paddingTop: "5px",
+                      paddingBottom: "5px",
+                      backgroundColor: "transparent",
+                      textDecoration: "none",
+                      boxSizing: "none",
+                      cursor: "pointer",
+                      fontSize: "13px",
+                      textAlign: "-webkit-match-parent",
+                      listStyle: "none",
+                    }}
+                  >
+                    Our Investors
+                  </a>
+                </li>
+                <li
+                  style={{
+                    fontSize: "13px",
+                    boxSizing: "border-box",
+                    display: "block",
+                    textAlign: "-webkit-match-parent",
+                    listStyle: "none",
+                    color: "#fff",
+                  }}
+                >
+                  <a
+                    href="/"
+                    style={{
+                      color: "#bdbdbd",
+                      transition: "all .25s ease-in",
+                      display: "inline-block",
+                      paddingTop: "5px",
+                      paddingBottom: "5px",
+                      backgroundColor: "transparent",
+                      textDecoration: "none",
+                      boxSizing: "none",
+                      cursor: "pointer",
+                      fontSize: "13px",
+                      textAlign: "-webkit-match-parent",
+                      listStyle: "none",
+                    }}
+                  >
+                    GDPR
+                  </a>
+                </li>
+                <li
+                  style={{
+                    fontSize: "13px",
+                    boxSizing: "border-box",
+                    display: "block",
+                    textAlign: "-webkit-match-parent",
+                    listStyle: "none",
+                    color: "#fff",
+                  }}
+                >
+                  <a
+                    href="/"
+                    style={{
+                      color: "#bdbdbd",
+                      transition: "all .25s ease-in",
+                      display: "inline-block",
+                      paddingTop: "5px",
+                      paddingBottom: "5px",
+                      backgroundColor: "transparent",
+                      textDecoration: "none",
+                      boxSizing: "none",
+                      cursor: "pointer",
+                      fontSize: "13px",
+                      textAlign: "-webkit-match-parent",
+                      listStyle: "none",
+                    }}
+                  >
+                    For Founders
+                  </a>
+                </li>
+                <li
+                  style={{
+                    fontSize: "13px",
+                    boxSizing: "border-box",
+                    display: "block",
+                    textAlign: "-webkit-match-parent",
+                    listStyle: "none",
+                    color: "#fff",
+                  }}
+                >
+                  <a
+                    href="/"
+                    style={{
+                      color: "#bdbdbd",
+                      transition: "all .25s ease-in",
+                      display: "inline-block",
+                      paddingTop: "5px",
+                      paddingBottom: "5px",
+                      backgroundColor: "transparent",
+                      textDecoration: "none",
+                      boxSizing: "none",
+                      cursor: "pointer",
+                      fontSize: "13px",
+                      textAlign: "-webkit-match-parent",
+                      listStyle: "none",
+                    }}
+                  >
+                    Pricing
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div
+              className="footer-list-second"
+              style={{
+                flex: "1",
+                marginBottom: "10px",
+                paddingLeft: "10px",
+                paddingRight: "10px",
+                boxSizing: "border-box",
+                display: "block",
+                color: "#fff",
+              }}
+            >
+              <ul
+                style={{
+                  listStyle: "none",
+                  padding: "0",
+                  margin: "0",
+                  boxSizing: "border-box",
+                  marginBlockStart: "1em",
+                  marginBlockEnd: "1em",
+                  marginInlineStart: "0px",
+                  marginInlineEnd: "0px",
+                  paddingInlineStart: "40px",
+                  color: "#fff",
+                }}
+              >
+                <h6>Sector Research</h6>
+                <li
+                  style={{
+                    fontSize: "13px",
+                    boxSizing: "border-box",
+                    display: "block",
+                    textAlign: "-webkit-match-parent",
+                    listStyle: "none",
+                    color: "#fff",
+                  }}
+                >
+                  <a
+                    href="/"
+                    style={{
+                      color: "#bdbdbd",
+                      transition: "all .25s ease-in",
+                      display: "inline-block",
+                      paddingTop: "5px",
+                      paddingBottom: "5px",
+                      backgroundColor: "transparent",
+                      textDecoration: "none",
+                      boxSizing: "none",
+                      cursor: "pointer",
+                      fontSize: "13px",
+                      textAlign: "-webkit-match-parent",
+                      listStyle: "none",
+                    }}
+                  >
+                    Practice Areas
+                  </a>
+                </li>
+                <li
+                  style={{
+                    fontSize: "13px",
+                    boxSizing: "border-box",
+                    display: "block",
+                    textAlign: "-webkit-match-parent",
+                    listStyle: "none",
+                    color: "#fff",
+                  }}
+                >
+                  <a
+                    href="/"
+                    style={{
+                      color: "#bdbdbd",
+                      transition: "all .25s ease-in",
+                      display: "inline-block",
+                      paddingTop: "5px",
+                      paddingBottom: "5px",
+                      backgroundColor: "transparent",
+                      textDecoration: "none",
+                      boxSizing: "none",
+                      cursor: "pointer",
+                      fontSize: "13px",
+                      textAlign: "-webkit-match-parent",
+                      listStyle: "none",
+                    }}
+                  >
+                    Geographies
+                  </a>
+                </li>
+                <li
+                  style={{
+                    fontSize: "13px",
+                    boxSizing: "border-box",
+                    display: "block",
+                    textAlign: "-webkit-match-parent",
+                    listStyle: "none",
+                    color: "#fff",
+                  }}
+                >
+                  <a
+                    href="/"
+                    style={{
+                      color: "#bdbdbd",
+                      transition: "all .25s ease-in",
+                      display: "inline-block",
+                      paddingTop: "5px",
+                      paddingBottom: "5px",
+                      backgroundColor: "transparent",
+                      textDecoration: "none",
+                      boxSizing: "none",
+                      cursor: "pointer",
+                      fontSize: "13px",
+                      textAlign: "-webkit-match-parent",
+                      listStyle: "none",
+                    }}
+                  >
+                    Waves
+                  </a>
+                </li>
+                <h6>Customers</h6>
+                <li
+                  style={{
+                    fontSize: "13px",
+                    boxSizing: "border-box",
+                    display: "block",
+                    textAlign: "-webkit-match-parent",
+                    listStyle: "none",
+                    color: "#fff",
+                  }}
+                >
+                  <a
+                    href="/"
+                    style={{
+                      color: "#bdbdbd",
+                      transition: "all .25s ease-in",
+                      display: "inline-block",
+                      paddingTop: "5px",
+                      paddingBottom: "5px",
+                      backgroundColor: "transparent",
+                      textDecoration: "none",
+                      boxSizing: "none",
+                      cursor: "pointer",
+                      fontSize: "13px",
+                      textAlign: "-webkit-match-parent",
+                      listStyle: "none",
+                    }}
+                  >
+                    Venture Capital Funds
+                  </a>
+                </li>
+                <li
+                  style={{
+                    fontSize: "13px",
+                    boxSizing: "border-box",
+                    display: "block",
+                    textAlign: "-webkit-match-parent",
+                    listStyle: "none",
+                    color: "#fff",
+                  }}
+                >
+                  <a
+                    href="/"
+                    style={{
+                      color: "#bdbdbd",
+                      transition: "all .25s ease-in",
+                      display: "inline-block",
+                      paddingTop: "5px",
+                      paddingBottom: "5px",
+                      backgroundColor: "transparent",
+                      textDecoration: "none",
+                      boxSizing: "none",
+                      cursor: "pointer",
+                      fontSize: "13px",
+                      textAlign: "-webkit-match-parent",
+                      listStyle: "none",
+                    }}
+                  >
+                    Private Equity Funds
+                  </a>
+                </li>
+                <li
+                  style={{
+                    fontSize: "13px",
+                    boxSizing: "border-box",
+                    display: "block",
+                    textAlign: "-webkit-match-parent",
+                    listStyle: "none",
+                    color: "#fff",
+                  }}
+                >
+                  <a
+                    href="/"
+                    style={{
+                      color: "#bdbdbd",
+                      transition: "all .25s ease-in",
+                      display: "inline-block",
+                      paddingTop: "5px",
+                      paddingBottom: "5px",
+                      backgroundColor: "transparent",
+                      textDecoration: "none",
+                      boxSizing: "none",
+                      cursor: "pointer",
+                      fontSize: "13px",
+                      textAlign: "-webkit-match-parent",
+                      listStyle: "none",
+                    }}
+                  >
+                    Accelerators and Incubators
+                  </a>
+                </li>
+                <li
+                  style={{
+                    fontSize: "13px",
+                    boxSizing: "border-box",
+                    display: "block",
+                    textAlign: "-webkit-match-parent",
+                    listStyle: "none",
+                    color: "#fff",
+                  }}
+                >
+                  <a
+                    href="/"
+                    style={{
+                      color: "#bdbdbd",
+                      transition: "all .25s ease-in",
+                      display: "inline-block",
+                      paddingTop: "5px",
+                      paddingBottom: "5px",
+                      backgroundColor: "transparent",
+                      textDecoration: "none",
+                      boxSizing: "none",
+                      cursor: "pointer",
+                      fontSize: "13px",
+                      textAlign: "-webkit-match-parent",
+                      listStyle: "none",
+                    }}
+                  >
+                    Investment Banks
+                  </a>
+                </li>
+                <li
+                  style={{
+                    fontSize: "13px",
+                    boxSizing: "border-box",
+                    display: "block",
+                    textAlign: "-webkit-match-parent",
+                    listStyle: "none",
+                    color: "#fff",
+                  }}
+                >
+                  <a
+                    href="/"
+                    style={{
+                      color: "#bdbdbd",
+                      transition: "all .25s ease-in",
+                      display: "inline-block",
+                      paddingTop: "5px",
+                      paddingBottom: "5px",
+                      backgroundColor: "transparent",
+                      textDecoration: "none",
+                      boxSizing: "none",
+                      cursor: "pointer",
+                      fontSize: "13px",
+                      textAlign: "-webkit-match-parent",
+                      listStyle: "none",
+                    }}
+                  >
+                    Corporate Innovation
+                  </a>
+                </li>
+                <li
+                  style={{
+                    fontSize: "13px",
+                    boxSizing: "border-box",
+                    display: "block",
+                    textAlign: "-webkit-match-parent",
+                    listStyle: "none",
+                    color: "#fff",
+                  }}
+                >
+                  <a
+                    href="/"
+                    style={{
+                      color: "#bdbdbd",
+                      transition: "all .25s ease-in",
+                      display: "inline-block",
+                      paddingTop: "5px",
+                      paddingBottom: "5px",
+                      backgroundColor: "transparent",
+                      textDecoration: "none",
+                      boxSizing: "none",
+                      cursor: "pointer",
+                      fontSize: "13px",
+                      textAlign: "-webkit-match-parent",
+                      listStyle: "none",
+                    }}
+                  >
+                    Corporate Development and M&A Teams
+                  </a>
+                </li>
+                <li
+                  style={{
+                    fontSize: "13px",
+                    boxSizing: "border-box",
+                    display: "block",
+                    textAlign: "-webkit-match-parent",
+                    listStyle: "none",
+                    color: "#fff",
+                  }}
+                >
+                  <a
+                    href="/"
+                    style={{
+                      color: "#bdbdbd",
+                      transition: "all .25s ease-in",
+                      display: "inline-block",
+                      paddingTop: "5px",
+                      paddingBottom: "5px",
+                      backgroundColor: "transparent",
+                      textDecoration: "none",
+                      boxSizing: "none",
+                      cursor: "pointer",
+                      fontSize: "13px",
+                      textAlign: "-webkit-match-parent",
+                      listStyle: "none",
+                    }}
+                  >
+                    Journalists and Publications
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div
+              className="footer-list-third"
+              style={{
+                flex: "1",
+                marginBottom: "10px",
+                paddingLeft: "10px",
+                paddingRight: "10px",
+                boxSizing: "border-box",
+                display: "block",
+                color: "#fff",
+              }}
+            >
+              <ul
+                style={{
+                  listStyle: "none",
+                  padding: "0",
+                  margin: "0",
+                  boxSizing: "border-box",
+                  marginBlockStart: "1em",
+                  marginBlockEnd: "1em",
+                  marginInlineStart: "0px",
+                  marginInlineEnd: "0px",
+                  paddingInlineStart: "40px",
+                  color: "#fff",
+                }}
+              >
+                <h6>Discovery</h6>
+                <li
+                  style={{
+                    fontSize: "13px",
+                    boxSizing: "border-box",
+                    display: "block",
+                    textAlign: "-webkit-match-parent",
+                    listStyle: "none",
+                    color: "#fff",
+                  }}
+                >
+                  <a
+                    href="/"
+                    style={{
+                      color: "#bdbdbd",
+                      transition: "all .25s ease-in",
+                      display: "inline-block",
+                      paddingTop: "5px",
+                      paddingBottom: "5px",
+                      backgroundColor: "transparent",
+                      textDecoration: "none",
+                      boxSizing: "none",
+                      cursor: "pointer",
+                      fontSize: "13px",
+                      textAlign: "-webkit-match-parent",
+                      listStyle: "none",
+                    }}
+                  >
+                    Exciting Company lists
+                  </a>
+                </li>
+                <li
+                  style={{
+                    fontSize: "13px",
+                    boxSizing: "border-box",
+                    display: "block",
+                    textAlign: "-webkit-match-parent",
+                    listStyle: "none",
+                    color: "#fff",
+                  }}
+                >
+                  <a
+                    href="/"
+                    style={{
+                      color: "#bdbdbd",
+                      transition: "all .25s ease-in",
+                      display: "inline-block",
+                      paddingTop: "5px",
+                      paddingBottom: "5px",
+                      backgroundColor: "transparent",
+                      textDecoration: "none",
+                      boxSizing: "none",
+                      cursor: "pointer",
+                      fontSize: "13px",
+                      textAlign: "-webkit-match-parent",
+                      listStyle: "none",
+                    }}
+                  >
+                    Top Companies to work in
+                  </a>
+                </li>
+                <li
+                  style={{
+                    fontSize: "13px",
+                    boxSizing: "border-box",
+                    display: "block",
+                    textAlign: "-webkit-match-parent",
+                    listStyle: "none",
+                    color: "#fff",
+                  }}
+                >
+                  <a
+                    href="/"
+                    style={{
+                      color: "#bdbdbd",
+                      transition: "all .25s ease-in",
+                      display: "inline-block",
+                      paddingTop: "5px",
+                      paddingBottom: "5px",
+                      backgroundColor: "transparent",
+                      textDecoration: "none",
+                      boxSizing: "none",
+                      cursor: "pointer",
+                      fontSize: "13px",
+                      textAlign: "-webkit-match-parent",
+                      listStyle: "none",
+                    }}
+                  >
+                    Investor Lists
+                  </a>
+                </li>
+                <li
+                  style={{
+                    fontSize: "13px",
+                    boxSizing: "border-box",
+                    display: "block",
+                    textAlign: "-webkit-match-parent",
+                    listStyle: "none",
+                    color: "#fff",
+                  }}
+                >
+                  <a
+                    href="/"
+                    style={{
+                      color: "#bdbdbd",
+                      transition: "all .25s ease-in",
+                      display: "inline-block",
+                      paddingTop: "5px",
+                      paddingBottom: "5px",
+                      backgroundColor: "transparent",
+                      textDecoration: "none",
+                      boxSizing: "none",
+                      cursor: "pointer",
+                      fontSize: "13px",
+                      textAlign: "-webkit-match-parent",
+                      listStyle: "none",
+                    }}
+                  >
+                    Venture Capitalists
+                  </a>
+                </li>
+                <li
+                  style={{
+                    fontSize: "13px",
+                    boxSizing: "border-box",
+                    display: "block",
+                    textAlign: "-webkit-match-parent",
+                    listStyle: "none",
+                    color: "#fff",
+                  }}
+                >
+                  <a
+                    href="/"
+                    style={{
+                      color: "#bdbdbd",
+                      transition: "all .25s ease-in",
+                      display: "inline-block",
+                      paddingTop: "5px",
+                      paddingBottom: "5px",
+                      backgroundColor: "transparent",
+                      textDecoration: "none",
+                      boxSizing: "none",
+                      cursor: "pointer",
+                      fontSize: "13px",
+                      textAlign: "-webkit-match-parent",
+                      listStyle: "none",
+                    }}
+                  >
+                    Private Equity firms
+                  </a>
+                </li>
+                <li
+                  style={{
+                    fontSize: "13px",
+                    boxSizing: "border-box",
+                    display: "block",
+                    textAlign: "-webkit-match-parent",
+                    listStyle: "none",
+                    color: "#fff",
+                  }}
+                >
+                  <a
+                    href="/"
+                    style={{
+                      color: "#bdbdbd",
+                      transition: "all .25s ease-in",
+                      display: "inline-block",
+                      paddingTop: "5px",
+                      paddingBottom: "5px",
+                      backgroundColor: "transparent",
+                      textDecoration: "none",
+                      boxSizing: "none",
+                      cursor: "pointer",
+                      fontSize: "13px",
+                      textAlign: "-webkit-match-parent",
+                      listStyle: "none",
+                    }}
+                  >
+                    Accelerators & Incubators
+                  </a>
+                </li>
+                <li
+                  style={{
+                    fontSize: "13px",
+                    boxSizing: "border-box",
+                    display: "block",
+                    textAlign: "-webkit-match-parent",
+                    listStyle: "none",
+                    color: "#fff",
+                  }}
+                >
+                  <a
+                    href="/"
+                    style={{
+                      color: "#bdbdbd",
+                      transition: "all .25s ease-in",
+                      display: "inline-block",
+                      paddingTop: "5px",
+                      paddingBottom: "5px",
+                      backgroundColor: "transparent",
+                      textDecoration: "none",
+                      boxSizing: "none",
+                      cursor: "pointer",
+                      fontSize: "13px",
+                      textAlign: "-webkit-match-parent",
+                      listStyle: "none",
+                    }}
+                  >
+                    Angel Networks
+                  </a>
+                </li>
+                <li
+                  style={{
+                    fontSize: "13px",
+                    boxSizing: "border-box",
+                    display: "block",
+                    textAlign: "-webkit-match-parent",
+                    listStyle: "none",
+                    color: "#fff",
+                  }}
+                >
+                  <a
+                    href="/"
+                    style={{
+                      color: "#bdbdbd",
+                      transition: "all .25s ease-in",
+                      display: "inline-block",
+                      paddingTop: "5px",
+                      paddingBottom: "5px",
+                      backgroundColor: "transparent",
+                      textDecoration: "none",
+                      boxSizing: "none",
+                      cursor: "pointer",
+                      fontSize: "13px",
+                      textAlign: "-webkit-match-parent",
+                      listStyle: "none",
+                    }}
+                  >
+                    Angel Investors
+                  </a>
+                </li>
+                <li
+                  style={{
+                    fontSize: "13px",
+                    boxSizing: "border-box",
+                    display: "block",
+                    textAlign: "-webkit-match-parent",
+                    listStyle: "none",
+                    color: "#fff",
+                  }}
+                >
+                  <a
+                    href="/"
+                    style={{
+                      color: "#bdbdbd",
+                      transition: "all .25s ease-in",
+                      display: "inline-block",
+                      paddingTop: "5px",
+                      paddingBottom: "5px",
+                      backgroundColor: "transparent",
+                      textDecoration: "none",
+                      boxSizing: "none",
+                      cursor: "pointer",
+                      fontSize: "13px",
+                      textAlign: "-webkit-match-parent",
+                      listStyle: "none",
+                    }}
+                  >
+                    Trending Themes
+                  </a>
+                </li>
+                <li
+                  style={{
+                    fontSize: "13px",
+                    boxSizing: "border-box",
+                    display: "block",
+                    textAlign: "-webkit-match-parent",
+                    listStyle: "none",
+                    color: "#fff",
+                  }}
+                >
+                  <a
+                    href="/"
+                    style={{
+                      color: "#bdbdbd",
+                      transition: "all .25s ease-in",
+                      display: "inline-block",
+                      paddingTop: "5px",
+                      paddingBottom: "5px",
+                      backgroundColor: "transparent",
+                      textDecoration: "none",
+                      boxSizing: "none",
+                      cursor: "pointer",
+                      fontSize: "13px",
+                      textAlign: "-webkit-match-parent",
+                      listStyle: "none",
+                    }}
+                  >
+                    Marketmap
+                  </a>
+                </li>
+                <li
+                  style={{
+                    fontSize: "13px",
+                    boxSizing: "border-box",
+                    display: "block",
+                    textAlign: "-webkit-match-parent",
+                    listStyle: "none",
+                    color: "#fff",
+                  }}
+                >
+                  <a
+                    href="/"
+                    style={{
+                      color: "#bdbdbd",
+                      transition: "all .25s ease-in",
+                      display: "inline-block",
+                      paddingTop: "5px",
+                      paddingBottom: "5px",
+                      backgroundColor: "transparent",
+                      textDecoration: "none",
+                      boxSizing: "none",
+                      cursor: "pointer",
+                      fontSize: "13px",
+                      textAlign: "-webkit-match-parent",
+                      listStyle: "none",
+                    }}
+                  >
+                    Startups by Alma Mater
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div
+              className="footer-list-fourth"
+              style={{
+                flex: "1",
+                marginBottom: "10px",
+                paddingLeft: "10px",
+                paddingRight: "10px",
+                boxSizing: "border-box",
+                display: "block",
+                color: "#fff",
+              }}
+            >
+              <ul
+                style={{
+                  listStyle: "none",
+                  padding: "0",
+                  margin: "0",
+                  boxSizing: "border-box",
+                  marginBlockStart: "1em",
+                  marginBlockEnd: "1em",
+                  marginInlineStart: "0px",
+                  marginInlineEnd: "0px",
+                  paddingInlineStart: "40px",
+                  color: "#fff",
+                }}
+              >
+                <h3></h3>
+                <li
+                  style={{
+                    fontSize: "13px",
+                    boxSizing: "border-box",
+                    display: "block",
+                    textAlign: "-webkit-match-parent",
+                    listStyle: "none",
+                    color: "#fff",
+                  }}
+                >
+                  <a
+                    href="/"
+                    style={{
+                      color: "#bdbdbd",
+                      transition: "all .25s ease-in",
+                      display: "inline-block",
+                      paddingTop: "5px",
+                      paddingBottom: "5px",
+                      backgroundColor: "transparent",
+                      textDecoration: "none",
+                      boxSizing: "none",
+                      cursor: "pointer",
+                      fontSize: "13px",
+                      textAlign: "-webkit-match-parent",
+                      listStyle: "none",
+                    }}
+                  >
+                    Exciting Company lists
+                  </a>
+                </li>
+                <li
+                  style={{
+                    fontSize: "13px",
+                    boxSizing: "border-box",
+                    display: "block",
+                    textAlign: "-webkit-match-parent",
+                    listStyle: "none",
+                    color: "#fff",
+                  }}
+                >
+                  <a
+                    href="/"
+                    style={{
+                      color: "#bdbdbd",
+                      transition: "all .25s ease-in",
+                      display: "inline-block",
+                      paddingTop: "5px",
+                      paddingBottom: "5px",
+                      backgroundColor: "transparent",
+                      textDecoration: "none",
+                      boxSizing: "none",
+                      cursor: "pointer",
+                      fontSize: "13px",
+                      textAlign: "-webkit-match-parent",
+                      listStyle: "none",
+                    }}
+                  >
+                    Top Companies to work in
+                  </a>
+                </li>
+                <li
+                  style={{
+                    fontSize: "13px",
+                    boxSizing: "border-box",
+                    display: "block",
+                    textAlign: "-webkit-match-parent",
+                    listStyle: "none",
+                    color: "#fff",
+                  }}
+                >
+                  <a
+                    href="/"
+                    style={{
+                      color: "#bdbdbd",
+                      transition: "all .25s ease-in",
+                      display: "inline-block",
+                      paddingTop: "5px",
+                      paddingBottom: "5px",
+                      backgroundColor: "transparent",
+                      textDecoration: "none",
+                      boxSizing: "none",
+                      cursor: "pointer",
+                      fontSize: "13px",
+                      textAlign: "-webkit-match-parent",
+                      listStyle: "none",
+                    }}
+                  >
+                    Investor Lists
+                  </a>
+                </li>
+                <li
+                  style={{
+                    fontSize: "13px",
+                    boxSizing: "border-box",
+                    display: "block",
+                    textAlign: "-webkit-match-parent",
+                    listStyle: "none",
+                    color: "#fff",
+                  }}
+                >
+                  <a
+                    href="/"
+                    style={{
+                      color: "#bdbdbd",
+                      transition: "all .25s ease-in",
+                      display: "inline-block",
+                      paddingTop: "5px",
+                      paddingBottom: "5px",
+                      backgroundColor: "transparent",
+                      textDecoration: "none",
+                      boxSizing: "none",
+                      cursor: "pointer",
+                      fontSize: "13px",
+                      textAlign: "-webkit-match-parent",
+                      listStyle: "none",
+                    }}
+                  >
+                    Venture Capitalists
+                  </a>
+                </li>
+                <li
+                  style={{
+                    fontSize: "13px",
+                    boxSizing: "border-box",
+                    display: "block",
+                    textAlign: "-webkit-match-parent",
+                    listStyle: "none",
+                    color: "#fff",
+                  }}
+                >
+                  <a
+                    href="/"
+                    style={{
+                      color: "#bdbdbd",
+                      transition: "all .25s ease-in",
+                      display: "inline-block",
+                      paddingTop: "5px",
+                      paddingBottom: "5px",
+                      backgroundColor: "transparent",
+                      textDecoration: "none",
+                      boxSizing: "none",
+                      cursor: "pointer",
+                      fontSize: "13px",
+                      textAlign: "-webkit-match-parent",
+                      listStyle: "none",
+                    }}
+                  >
+                    Private Equity firms
+                  </a>
+                </li>
+                <li
+                  style={{
+                    fontSize: "13px",
+                    boxSizing: "border-box",
+                    display: "block",
+                    textAlign: "-webkit-match-parent",
+                    listStyle: "none",
+                    color: "#fff",
+                  }}
+                >
+                  <a
+                    href="/"
+                    style={{
+                      color: "#bdbdbd",
+                      transition: "all .25s ease-in",
+                      display: "inline-block",
+                      paddingTop: "5px",
+                      paddingBottom: "5px",
+                      backgroundColor: "transparent",
+                      textDecoration: "none",
+                      boxSizing: "none",
+                      cursor: "pointer",
+                      fontSize: "13px",
+                      textAlign: "-webkit-match-parent",
+                      listStyle: "none",
+                    }}
+                  >
+                    Accelerators & Incubators
+                  </a>
+                </li>
+                <li
+                  style={{
+                    fontSize: "13px",
+                    boxSizing: "border-box",
+                    display: "block",
+                    textAlign: "-webkit-match-parent",
+                    listStyle: "none",
+                    color: "#fff",
+                  }}
+                >
+                  <a
+                    href="/"
+                    style={{
+                      color: "#bdbdbd",
+                      transition: "all .25s ease-in",
+                      display: "inline-block",
+                      paddingTop: "5px",
+                      paddingBottom: "5px",
+                      backgroundColor: "transparent",
+                      textDecoration: "none",
+                      boxSizing: "none",
+                      cursor: "pointer",
+                      fontSize: "13px",
+                      textAlign: "-webkit-match-parent",
+                      listStyle: "none",
+                    }}
+                  >
+                    Angel Networks
+                  </a>
+                </li>
+                <li
+                  style={{
+                    fontSize: "13px",
+                    boxSizing: "border-box",
+                    display: "block",
+                    textAlign: "-webkit-match-parent",
+                    listStyle: "none",
+                    color: "#fff",
+                  }}
+                >
+                  <a
+                    href="/"
+                    style={{
+                      color: "#bdbdbd",
+                      transition: "all .25s ease-in",
+                      display: "inline-block",
+                      paddingTop: "5px",
+                      paddingBottom: "5px",
+                      backgroundColor: "transparent",
+                      textDecoration: "none",
+                      boxSizing: "none",
+                      cursor: "pointer",
+                      fontSize: "13px",
+                      textAlign: "-webkit-match-parent",
+                      listStyle: "none",
+                    }}
+                  >
+                    Angel Investors
+                  </a>
+                </li>
+                <li
+                  style={{
+                    fontSize: "13px",
+                    boxSizing: "border-box",
+                    display: "block",
+                    textAlign: "-webkit-match-parent",
+                    listStyle: "none",
+                    color: "#fff",
+                  }}
+                >
+                  <a
+                    href="/"
+                    style={{
+                      color: "#bdbdbd",
+                      transition: "all .25s ease-in",
+                      display: "inline-block",
+                      paddingTop: "5px",
+                      paddingBottom: "5px",
+                      backgroundColor: "transparent",
+                      textDecoration: "none",
+                      boxSizing: "none",
+                      cursor: "pointer",
+                      fontSize: "13px",
+                      textAlign: "-webkit-match-parent",
+                      listStyle: "none",
+                    }}
+                  >
+                    Trending Themes
+                  </a>
+                </li>
+                <li
+                  style={{
+                    fontSize: "13px",
+                    boxSizing: "border-box",
+                    display: "block",
+                    textAlign: "-webkit-match-parent",
+                    listStyle: "none",
+                    color: "#fff",
+                  }}
+                >
+                  <a
+                    href="/"
+                    style={{
+                      color: "#bdbdbd",
+                      transition: "all .25s ease-in",
+                      display: "inline-block",
+                      paddingTop: "5px",
+                      paddingBottom: "5px",
+                      backgroundColor: "transparent",
+                      textDecoration: "none",
+                      boxSizing: "none",
+                      cursor: "pointer",
+                      fontSize: "13px",
+                      textAlign: "-webkit-match-parent",
+                      listStyle: "none",
+                    }}
+                  >
+                    Marketmap
+                  </a>
+                </li>
+                <li
+                  style={{
+                    fontSize: "13px",
+                    boxSizing: "border-box",
+                    display: "block",
+                    textAlign: "-webkit-match-parent",
+                    listStyle: "none",
+                    color: "#fff",
+                  }}
+                >
+                  <a
+                    href="/"
+                    style={{
+                      color: "#bdbdbd",
+                      transition: "all .25s ease-in",
+                      display: "inline-block",
+                      paddingTop: "5px",
+                      paddingBottom: "5px",
+                      backgroundColor: "transparent",
+                      textDecoration: "none",
+                      boxSizing: "none",
+                      cursor: "pointer",
+                      fontSize: "13px",
+                      textAlign: "-webkit-match-parent",
+                      listStyle: "none",
+                    }}
+                  >
+                    Startups by Alma Mater
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div
+              className="footer-list-fifth"
+              style={{
+                flex: "1",
+                marginBottom: "10px",
+                paddingLeft: "10px",
+                paddingRight: "10px",
+                boxSizing: "border-box",
+                display: "block",
+                color: "#fff",
+              }}
+            >
+              <ul
+                style={{
+                  listStyle: "none",
+                  padding: "0",
+                  margin: "0",
+                  boxSizing: "border-box",
+                  marginBlockStart: "1em",
+                  marginBlockEnd: "1em",
+                  marginInlineStart: "0px",
+                  marginInlineEnd: "0px",
+                  paddingInlineStart: "40px",
+                  color: "#fff",
+                }}
+              >
+                <h6>Connect</h6>
+                <li
+                  style={{
+                    fontSize: "13px",
+                    boxSizing: "border-box",
+                    display: "block",
+                    textAlign: "-webkit-match-parent",
+                    listStyle: "none",
+                    color: "#fff",
+                  }}
+                >
+                  <a
+                    href="/"
+                    style={{
+                      color: "#bdbdbd",
+                      transition: "all .25s ease-in",
+                      display: "inline-block",
+                      paddingTop: "5px",
+                      paddingBottom: "5px",
+                      backgroundColor: "transparent",
+                      textDecoration: "none",
+                      boxSizing: "none",
+                      cursor: "pointer",
+                      fontSize: "13px",
+                      textAlign: "-webkit-match-parent",
+                      listStyle: "none",
+                    }}
+                  >
+                    Exciting Company lists
+                  </a>
+                </li>
+                <li
+                  style={{
+                    fontSize: "13px",
+                    boxSizing: "border-box",
+                    display: "block",
+                    textAlign: "-webkit-match-parent",
+                    listStyle: "none",
+                    color: "#fff",
+                  }}
+                >
+                  <a
+                    href="/"
+                    style={{
+                      color: "#bdbdbd",
+                      transition: "all .25s ease-in",
+                      display: "inline-block",
+                      paddingTop: "5px",
+                      paddingBottom: "5px",
+                      backgroundColor: "transparent",
+                      textDecoration: "none",
+                      boxSizing: "none",
+                      cursor: "pointer",
+                      fontSize: "13px",
+                      textAlign: "-webkit-match-parent",
+                      listStyle: "none",
+                    }}
+                  >
+                    Top Companies to work in
+                  </a>
+                </li>
+                <li
+                  style={{
+                    fontSize: "13px",
+                    boxSizing: "border-box",
+                    display: "block",
+                    textAlign: "-webkit-match-parent",
+                    listStyle: "none",
+                    color: "#fff",
+                  }}
+                >
+                  <a
+                    href="/"
+                    style={{
+                      color: "#bdbdbd",
+                      transition: "all .25s ease-in",
+                      display: "inline-block",
+                      paddingTop: "5px",
+                      paddingBottom: "5px",
+                      backgroundColor: "transparent",
+                      textDecoration: "none",
+                      boxSizing: "none",
+                      cursor: "pointer",
+                      fontSize: "13px",
+                      textAlign: "-webkit-match-parent",
+                      listStyle: "none",
+                    }}
+                  >
+                    Investor Lists
+                  </a>
+                </li>
+                <h6>Tracxn Advantage</h6>
+                <li
+                  style={{
+                    fontSize: "13px",
+                    boxSizing: "border-box",
+                    display: "block",
+                    textAlign: "-webkit-match-parent",
+                    listStyle: "none",
+                    color: "#fff",
+                  }}
+                >
+                  <a
+                    href="/"
+                    style={{
+                      color: "#bdbdbd",
+                      transition: "all .25s ease-in",
+                      display: "inline-block",
+                      paddingTop: "5px",
+                      paddingBottom: "5px",
+                      backgroundColor: "transparent",
+                      textDecoration: "none",
+                      boxSizing: "none",
+                      cursor: "pointer",
+                      fontSize: "13px",
+                      textAlign: "-webkit-match-parent",
+                      listStyle: "none",
+                    }}
+                  >
+                    Venture Capitalists
+                  </a>
+                </li>
+                <li
+                  style={{
+                    fontSize: "13px",
+                    boxSizing: "border-box",
+                    display: "block",
+                    textAlign: "-webkit-match-parent",
+                    listStyle: "none",
+                    color: "#fff",
+                  }}
+                >
+                  <a
+                    href="/"
+                    style={{
+                      color: "#bdbdbd",
+                      transition: "all .25s ease-in",
+                      display: "inline-block",
+                      paddingTop: "5px",
+                      paddingBottom: "5px",
+                      backgroundColor: "transparent",
+                      textDecoration: "none",
+                      boxSizing: "none",
+                      cursor: "pointer",
+                      fontSize: "13px",
+                      textAlign: "-webkit-match-parent",
+                      listStyle: "none",
+                    }}
+                  >
+                    Private Equity firms
+                  </a>
+                </li>
+                <li
+                  style={{
+                    fontSize: "13px",
+                    boxSizing: "border-box",
+                    display: "block",
+                    textAlign: "-webkit-match-parent",
+                    listStyle: "none",
+                    color: "#fff",
+                  }}
+                >
+                  <a
+                    href="/"
+                    style={{
+                      color: "#bdbdbd",
+                      transition: "all .25s ease-in",
+                      display: "inline-block",
+                      paddingTop: "5px",
+                      paddingBottom: "5px",
+                      backgroundColor: "transparent",
+                      textDecoration: "none",
+                      boxSizing: "none",
+                      cursor: "pointer",
+                      fontSize: "13px",
+                      textAlign: "-webkit-match-parent",
+                      listStyle: "none",
+                    }}
+                  >
+                    Accelerators & Incubators
+                  </a>
+                </li>
+                <li
+                  style={{
+                    fontSize: "13px",
+                    boxSizing: "border-box",
+                    display: "block",
+                    textAlign: "-webkit-match-parent",
+                    listStyle: "none",
+                    color: "#fff",
+                  }}
+                >
+                  <a
+                    href="/"
+                    style={{
+                      color: "#bdbdbd",
+                      transition: "all .25s ease-in",
+                      display: "inline-block",
+                      paddingTop: "5px",
+                      paddingBottom: "5px",
+                      backgroundColor: "transparent",
+                      textDecoration: "none",
+                      boxSizing: "none",
+                      cursor: "pointer",
+                      fontSize: "13px",
+                      textAlign: "-webkit-match-parent",
+                      listStyle: "none",
+                    }}
+                  >
+                    Angel Networks
+                  </a>
+                </li>
+                <li
+                  style={{
+                    fontSize: "13px",
+                    boxSizing: "border-box",
+                    display: "block",
+                    textAlign: "-webkit-match-parent",
+                    listStyle: "none",
+                    color: "#fff",
+                  }}
+                >
+                  <a
+                    href="/"
+                    style={{
+                      color: "#bdbdbd",
+                      transition: "all .25s ease-in",
+                      display: "inline-block",
+                      paddingTop: "5px",
+                      paddingBottom: "5px",
+                      backgroundColor: "transparent",
+                      textDecoration: "none",
+                      boxSizing: "none",
+                      cursor: "pointer",
+                      fontSize: "13px",
+                      textAlign: "-webkit-match-parent",
+                      listStyle: "none",
+                    }}
+                  >
+                    Angel Investors
+                  </a>
+                </li>
+                <li
+                  style={{
+                    fontSize: "13px",
+                    boxSizing: "border-box",
+                    display: "block",
+                    textAlign: "-webkit-match-parent",
+                    listStyle: "none",
+                    color: "#fff",
+                  }}
+                >
+                  <a
+                    href="/"
+                    style={{
+                      color: "#bdbdbd",
+                      transition: "all .25s ease-in",
+                      display: "inline-block",
+                      paddingTop: "5px",
+                      paddingBottom: "5px",
+                      backgroundColor: "transparent",
+                      textDecoration: "none",
+                      boxSizing: "none",
+                      cursor: "pointer",
+                      fontSize: "13px",
+                      textAlign: "-webkit-match-parent",
+                      listStyle: "none",
+                    }}
+                  >
+                    Trending Themes
+                  </a>
+                </li>
+                <li
+                  style={{
+                    fontSize: "13px",
+                    boxSizing: "border-box",
+                    display: "block",
+                    textAlign: "-webkit-match-parent",
+                    listStyle: "none",
+                    color: "#fff",
+                  }}
+                >
+                  <a
+                    href="/"
+                    style={{
+                      color: "#bdbdbd",
+                      transition: "all .25s ease-in",
+                      display: "inline-block",
+                      paddingTop: "5px",
+                      paddingBottom: "5px",
+                      backgroundColor: "transparent",
+                      textDecoration: "none",
+                      boxSizing: "none",
+                      cursor: "pointer",
+                      fontSize: "13px",
+                      textAlign: "-webkit-match-parent",
+                      listStyle: "none",
+                    }}
+                  >
+                    Marketmap
+                  </a>
+                </li>
+                <li
+                  style={{
+                    fontSize: "13px",
+                    boxSizing: "border-box",
+                    display: "block",
+                    textAlign: "-webkit-match-parent",
+                    listStyle: "none",
+                    color: "#fff",
+                  }}
+                >
+                  <a
+                    href="/"
+                    style={{
+                      color: "#bdbdbd",
+                      transition: "all .25s ease-in",
+                      display: "inline-block",
+                      paddingTop: "5px",
+                      paddingBottom: "5px",
+                      backgroundColor: "transparent",
+                      textDecoration: "none",
+                      boxSizing: "none",
+                      cursor: "pointer",
+                      fontSize: "13px",
+                      textAlign: "-webkit-match-parent",
+                      listStyle: "none",
+                    }}
+                  >
+                    Startups by Alma Mater
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <ul
+            style={{
+              listStyle: "none",
+              textAlign: "center",
+              padding: "0",
+              margin: "0",
+              boxSizing: "border-box",
+              display: "block",
+              marginBlockStart: "1em",
+              marginBlockEnd: "1em",
+              marginInlineStart: "0px",
+              marginInlineEnd: "0px",
+              paddingInlineStart: "40px",
+            }}
+          >
+            <li
+              style={{
+                paddingBottom: "10px",
+                boxSizing: "border-box",
+                display: "list-item",
+                textAlign: "-webkit-match-parent",
+                listStyle: "none",
+                color: "#fff",
+              }}
+            ></li>
+            <li
+              style={{
+                fontSize: "13px",
+                color: "#bdbdbd",
+                paddingBottom: "10px",
+                boxSizing: "border-box",
+                display: "list-item",
+                textAlign: "-webkit-match-parent",
+                listStyle: "none",
+              }}
+            >
+              © 2021 Tracxn Technologies. All rights reserved.
+            </li>
+          </ul>
+        </div>
+      </footer>
     </>
   );
 }
